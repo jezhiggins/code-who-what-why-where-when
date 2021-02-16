@@ -42,7 +42,7 @@ asciidoctorRevealJs {
 
 asciidoctorPdf {
   sources {
-    include "article.adoc"
+    include "index.adoc"
   }
 
   baseDirFollowsSourceDir()
