@@ -1,8 +1,71 @@
 = Code: Who, What, Why, Where, When
 Jez Higgins, jez@jezuk.co.uk
 {docdate}
+:notitle:
 :customcss: style/theme-tweak.css
 :revealjs_theme: white
 :revealjs_progress: false
 
-include::introduction.adoc[]
+== !
+
+[big]*CODE*
+
+*Who, What, Why, Where, When*
++
++
++
+_Jez Higgins_
+
+ACCU 101: Early Career Day
+
+[NOTE.speaker]
+--
+Hello again friends, I'm Jez and I'm here to talk with you about code.
+
+* Who it's for
+* What it's for
+* Why we write it
+* Where we should focus our attention
+* And honestly, I thought of what seemed like a snappy title, then had to backfill in the abstract to make the title work.
+
+I want us to think about code in the large and in the small, and along the way we'll be addressing the key questions of tabs vs spaces, emacs vs vi, and whether Thor is stronger than the Hulk.
+
+No, of course, we won't, because those things are insoluable and, whisper it, unimportant. There are so many insoluable important things we could be thinking about instead.
+--
+
+== !
+
+[big]*Code is easy*
+
+[NOTE.speaker]
+--
+Writing code is easy, right?
+
+If you were to say to me, write us some code, right now, this minute, then sure I can write you some code. And if I said the same to you, could you, all of you here, write some code right now, you'd all say yes, right?
+
+Yes?
+
+Yes!
+
+Because it's easy, right? We all know how to write code, probably in more than one language, perhaps in quite a few.
+
+But if I did say to you "write me some code", what would you immediately ask of me?
+--
+
+== !
+
+[big]*What should I write?*
+
+[NOTE.speaker]
+--
+Excellent question.
+
+Excellent.
+
+This is the key question that we, all of us here, as professional programmers, all of us in the wider programming community, should be asking.
+
+What should I write?
+
+Because code is easy, we can write code all day, but if that code doesn't do what the people paying our wages want, then really what's the point?
+--
+

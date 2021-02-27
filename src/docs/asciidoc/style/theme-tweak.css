@@ -17,3 +17,8 @@
   padding: 2px;
   line-height: 1.1em;
 }
+
+.big {
+  font-size: 200%;
+  font-weight: bold;
+}
