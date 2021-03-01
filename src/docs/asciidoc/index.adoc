@@ -76,7 +76,11 @@ When we write code, we taking stuff that we just think up - it comes from inside
 
 But the very same things that make writing code easy is what makes writing it hard.
 
-We can imagine what we want, but expressing it code can be difficult. Often the solution to that difficulty feels like it should be writing more code. Because code is easy, we can write code all day. And we all know where this is going.
+We can imagine what we want, but expressing it code can be difficult. Often the solution to that difficulty feels like it should be writing more code.
+
+If we just do this, then that'll be ok, ah, except February only has 28 days. Except in an Olympic year, but not 2021 ...
+
+Because code is easy, we can write code all day. And we all know where this is going.
 --
 
 == !
@@ -89,7 +93,7 @@ I've talked so far here about us. What _we_ can imagine, what _we_ can express, 
 
 The reality is though, as noted in the _what should I write_ question a moment ago, is that we're not usually engaged in writing software for our own amusement, we're writing for other people, and generally not for their amusement. We're writing it help in their work, or to give them access to some service - maybe book a holiday (perhaps a bad example at the moment), or to inform them they're eligible for a vaccine, or to pay a bill. Or whatever it is - you don't need me to give a list of things we use software for. You're not just programmers, you're normal people too :) You've seen software.
 
-We've already got our own brain-computer interface, but now we have to understand what's in other people's brains too?  Not just the people who will use the software, but the people working with us - the other programmers, the UI designers, video artists. We have to understand what they want to too? And get all that into the software?
+We've already got our own brain-computer barrier we need to cross, but now we have to understand what's in other people's brains too?  Not just the people who will use the software, but the people working with us - the other programmers, the UI designers, video artists. We have to understand what they want they all want too? And get all that into the software?
 --
 
 == !
@@ -100,15 +104,17 @@ We've already got our own brain-computer interface, but now we have to understan
 
 [NOTE.speaker]
 --
+Code is easy, and code is hard, at the same time.
+
 This is the fundamental paradox in the code we write.
 
-We can write reams and reams of it at almost no cost. We can do unimaginable computations in fractions of a second, we chew through vast quantities of data in moments. I'm not talking about things that would astonish our grandparents, I'm taking about capabilities that would amaze ourselves of 10 years ago. We can do these incredible things, just like that.
+We can write reams and reams of it at almost no cost. We can do unimaginable computations in fractions of a second, we chew through vast quantities of data in moments. I'm not talking about things that would astonish our grandparents, I'm taking about capabilities that would amaze ourselves of 10 years ago, five years ago even.
 
-But the ease with which we can produce that code, can crunch those numbers, that open up these huge possibilities, this vast space we can explore, is also why writing code can be so very, very hard.
+We can do these incredible things, just like that. It's like we have magic in our fingertips. This is ours to command. But the ease with which we can produce that code, can crunch those numbers, that open up these huge possibilities, this vast space we can explore - which is why it's so thrilling - is also why writing code can be so very, very hard.
 
-There's a real tension there, at the very heart of what we do as _software professionals_, as programmers. We have to try and tame that paradox.
+There's a real tension there, at the very heart of what we do as _software professionals_, as programmers. We have to try and tame that paradox. It's present at all levels, but it's most manifest, most there, down there at the level of the code.
 
-Unfortunately, there is no trick. We aren't cutting the Gordian knot. The magic eye picture isn't going to suddenly resolve. The Mobius strip is going untwist.
+Unfortunately, and this is where I let you down, there is no trick. We aren't cutting the Gordian knot. The magic eye picture isn't going to suddenly resolve. The Mobius strip is going untwist into a nice little loop.
 
 There are no rules we can follow.
 
