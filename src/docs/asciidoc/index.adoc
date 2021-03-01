@@ -68,7 +68,7 @@ What should I write?
 
 == !
 
-[big]*Code is Hard*
+[big]*Code is hard*
 
 [NOTE.speaker]
 --
@@ -98,9 +98,9 @@ We've already got our own brain-computer barrier we need to cross, but now we ha
 
 == !
 
-[big]*Code is Easy*
+[big]*Code is easy*
 
-[big]*Code is Hard*
+[big]*Code is hard*
 
 [NOTE.speaker]
 --
