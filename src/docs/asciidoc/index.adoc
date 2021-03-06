@@ -116,8 +116,49 @@ There's a real tension there, at the very heart of what we do as _software profe
 
 Unfortunately, and this is where I let you down, there is no trick. We aren't cutting the Gordian knot. The magic eye picture isn't going to suddenly resolve. The Mobius strip is going untwist into a nice little loop.
 
+--
+
+== !
+
+[big]*There are no rules*
+
+[NOTE.speaker]
+--
 There are no rules we can follow.
 
 If there were, then software would be straightforward, everyone would be doing just fine, and none of us would have gathered here today.
+
+This might sound like a counsel of despair. No rules? Then surely in the grim dark future there is only war? (And, honestly, some of the stories you hear might lead you to this conclusion.) While there may not be rules, we can apply some guidelines, some heuristics.
+
+I've already suggested that we have these difference forces in play, and that we're going to be engaged in some kind of a balancing act between, well not good and evil exactly, or even between law and chaos, but between everyone with an interest in the code.
+
+Consequently, there's a tension between these guidelines, and actually within the guidelines themselves. This is true not just in this session, but I suspect we'll see it again and again throughout the day.
+
+Ok, let's get going
 --
+
+== !
+
+[big]*_The code is not the important thing_*
+
+[NOTE.speaker]
+--
+The people who use our software are deeply, deeply uninterested in our code. They interested in what the code does and, generally speaking for the kind of commercial software most of us are engaged in, how it makes their life easier. They are interested in, and I hate to use such a management sounding word, but it's true, in _outcomes_, and we should be too.
+
+This is an extreme example, but I did a bit of work for a student at the university where I was working. He later told me I'd saved him 9 months of hand calculation, which meant he could submit his PhD thesis earlier than he'd ever expected. He subsequently got a research position in Hawaii and lived in a tropical paradise for the next twenty years. We can, quite genuinely change lives with an afternoon of nudging round a few Excel formulas.
+
+As a more everyday example is the work some of my colleagues at the Ministry of Justice are doing, on preparing the court lists - the trials that are going to take place that day. The service they're in the process of deploying at the moment looks to be reducing the time it takes court staff to prepare for around 90 minutes to about 20 minutes. Now for the people who do that work, who is should be noted are generally overworked as it is, that's great. Maybe they can knock off a bit earlier - I hope so. But it also means the trials are more likely to go ahead, which is beneficial not only for perpetrators and victims of crime, but for society as whole.
+
+The code is not important. We should focus on outcomes, on what people what to do.
+--
+
+== !
+
+[big]*_People don't know what they want_*
+
+[NOTE.speaker]
+--
+
+--
+
 
