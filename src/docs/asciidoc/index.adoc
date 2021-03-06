@@ -183,7 +183,7 @@ Or, as you might have heard it put ...
 
 [NOTE.speaker]
 --
-Not _do the simplest thing_. Definitely not _do the simple thing_. Not _that can work_. The _simplest thing that could possibly work_. We can't be sure, we have to find out.
+Not _do the simplest thing_. Definitely not _do the simple thing_. Not _that will work_. The _simplest thing that could possibly work_. We can't be sure, we have to find out.
 
 This isn't my phrasing, of course it isn't, this is far too sensible for anything I'd have come up with. This is a deeply, deeply profound insight.
 
@@ -191,7 +191,9 @@ _Do the simplest thing that could possibly work_
 
 It applies at all levels - from the architecture of our system, through the various layers or tiers or slices, to the packages/modules/namespaces, to the classes and functions, right down to the lines we write.
 
-Now the simplest thing might not be simple. It probably isn't simple, but we should resist overcomplicating. We should build what we need now, because we don't know - we can't know - what we need to build tomorrow. The less we do, the simpler we make the code today, the easier it will be to change it tomorrow.
+Now the simplest thing might not be simple. It probably isn't simple, but we should resist overcomplicating. We should aim to expresses our understanding, our intentions, as fully we can, in the code. Once we go beyond that, we're into speculation. Speculation is estimation, and we all know how meaningful software estimates are.
+
+We should build what we need now, because we don't know - we can't know - what we need to build tomorrow. What we're doing today changes tomorrow, for everybody. The less we do, the simpler we make the code today, the easier it will be to change it tomorrow.
 
 --
 
@@ -203,11 +205,46 @@ Now the simplest thing might not be simple. It probably isn't simple, but we sho
 --
 Software changes. All software - it doesn't matter if we're working on "greenfield" development, or legacyist of legacy software - is about change.
 
-The code we write will need changing. It will need changing because our understanding of what we're try to do has changed. I mean hopefully we have a better understanding, but it's not a given. We're going to changing the behaviour the existing code. We adding new functionality alongside what's already there. We might be taking stuff out. (We probably don't take out as much as we should.)
+The code we write will need changing. It will need changing because our understanding of what we're try to do has changed. I mean hopefully we have a better understanding, but it's not a given. We're going to be changing the behaviour the existing code. We might adding new functionality alongside what's already there. We might be taking stuff out. (We probably don't take out as much as we should.)
 
 We should be prepared to change, to modify, and adapt, and discard our previous work. It isn't a reflection on us, it merely that our understanding is now different. We are not our code, it isn't our code. It's code we wrote, but it isn't ours.
 
-Develop the inner strength to do that, and the tools and techniques to help make changes with confidence.
+That can be quite difficult to accept, but I would encourage you, strongly encourage you, to try cultivate that attitude within yourself, to learn that humility, and to be tolerant of those that might find a little more difficult.
+
+All change is be a scary. Even if you're sure of where you're going, it's still a step into the unknown. In the context of software development, the best advice I can give is
 --
 
+== !
 
+[big]*_Change one thing at a time_*
+
+[NOTE.speaker]
+--
+More specifically ...
+--
+
+== !
+
+[big]*_Change the design_*
+
+[big]*_or_*
+
+[big]*_Change the functionality_*
+
+[NOTE.speaker]
+--
+There's some new piece of work you need to do. You look at the code you have, read it through, and perhaps you can start to see where it'll fit in, the parts of the code base it'll touch. But it's not going to drop right. The code needs to be a bit more like this, or like that.
+
+Make it like that, change the design, what we call refactoring the code, and _then_ add the new functionality. Change the design to allow to change the functionality. Once the functionality is in, you'll probably see an opportunity to tighten the design, to do some further refactoring. It might be, probably will be the case, that you need to go back and forth on this a few times. But be clear which type of change you're making - am I improving the design, am I changing functionality.
+
+Make each individual change as small you can. If I'm working in this function, I'm making that change and commit, then maybe making another over here and commit that, another down there and commit that. Having made those three refactoring changes, I can add in my new functionality, commit that. Which enables this little refactoring.
+
+The smaller I can make each change, the more confident I can be about the change. And this is especially the case if I have tests around the code to support me.
+--
+
+[big]*_Practice Test Driven Development_*
+
+[NOTE.speaker]
+--
+
+--
