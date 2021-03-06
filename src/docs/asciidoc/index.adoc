@@ -78,7 +78,7 @@ But the very same things that make writing code easy is what makes writing it ha
 
 We can imagine what we want, but expressing it code can be difficult. Often the solution to that difficulty feels like it should be writing more code.
 
-If we just do this, then that'll be ok, ah, except February only has 28 days. Except in an Olympic year, but not 2021 ...
+If we just do this, then that'll be ok, ah, except February only has 28 days. 29 in an Olympic year, but not 2021 ...
 
 Because code is easy, we can write code all day. And we all know where this is going.
 --
@@ -93,7 +93,9 @@ I've talked so far here about us. What _we_ can imagine, what _we_ can express, 
 
 The reality is though, as noted in the _what should I write_ question a moment ago, is that we're not usually engaged in writing software for our own amusement, we're writing for other people, and generally not for their amusement. We're writing it help in their work, or to give them access to some service - maybe book a holiday (perhaps a bad example at the moment), or to inform them they're eligible for a vaccine, or to pay a bill. Or whatever it is - you don't need me to give a list of things we use software for. You're not just programmers, you're normal people too :) You've seen software.
 
-We've already got our own brain-computer barrier we need to cross, but now we have to understand what's in other people's brains too?  Not just the people who will use the software, but the people working with us - the other programmers, the UI designers, video artists. We have to understand what they want they all want too? And get all that into the software?
+We've already got our own brain-computer barrier we need to cross, but now we have to understand what's in other people's brains too?  Not just the people who will use the software, but the people working with us - the other programmers, the UI designers, amybe video artists. If you have a support desk, what do they need? Are there operations staff that will be looking after it for us?
+
+We have to understand what they want they all want too? And get all that into the software?
 --
 
 == !
@@ -114,7 +116,7 @@ We can do these incredible things, just like that. It's like we have magic in ou
 
 There's a real tension there, at the very heart of what we do as _software professionals_, as programmers. We have to try and tame that paradox. It's present at all levels, but it's most manifest, most there, down there at the level of the code.
 
-Unfortunately, and this is where I let you down, there is no trick. We aren't cutting the Gordian knot. The magic eye picture isn't going to suddenly resolve. The Mobius strip is going untwist into a nice little loop.
+Unfortunately, and this is where I let you down, there is no trick. We aren't cutting the Gordian knot. The magic eye picture isn't going to suddenly resolve. The Mobius strip is not going untwist into a nice little loop.
 
 --
 
@@ -149,7 +151,7 @@ This is an extreme example, but I did a bit of work for a student at the univers
 
 As a more everyday example is the work some of my colleagues at the Ministry of Justice are doing, on preparing the court lists - the trials that are going to take place that day. The service they're in the process of deploying at the moment looks to be reducing the time it takes court staff to prepare for around 90 minutes to about 20 minutes. Now for the people who do that work, who is should be noted are generally overworked as it is, that's great. Maybe they can knock off a bit earlier - I hope so. But it also means the trials are more likely to go ahead, which is beneficial not only for perpetrators and victims of crime, but for society as whole.
 
-The code is not important. We should focus on outcomes, on what people what to do.
+The code is not important. We should focus on outcomes, on what people want to do.
 --
 
 == !
@@ -158,7 +160,54 @@ The code is not important. We should focus on outcomes, on what people what to d
 
 [NOTE.speaker]
 --
+The difficulty is that people don't know what they want. They can have ideas, and feelings, and intuitions, and they can be very sure about those ideas and feelings. We can ask all the questions we like, offer all kinds of hypotheticals, hold out all kinds of possibilities, and get very definite opinions.
 
+But those ideas and opinions and feelings will change, and one of the key things that will provoke that change is delivering our software to them. Sometimes that reaction will be quite negative, _what is this_? Sometimes, of course, it's quite positive, but generally in a qualified way, _this is good, but could it do ..._. Nobody has every delivered a piece of software and people have looked at it and said _yes, this is perfect, your work here is done_.
+
+We probably can't deliver perfect software, but we can try and get closer over time.
+
+We shouldn't, by the way, use _they don't know what they want_ as an excuse to cut people out. We need them, we need their expertise, we need their advice.
+
+The only way to find out the outcomes that people really want is to ask them, build something, show it to them (ideally in a real situation), and then ask them again. For that to be a useful, fulfilling process, we need to do that as quickly as possible, as often as possible.
+
+How quickly is quickly? That's going to depend. How often is often? That's going to depend too. For my MoJ colleagues I mentioned earlier, quickly initially meant several months. However, now they've actually got stuff out there, we're probably looking at monthly. That feels pretty good. I work with a team at West Midlands Fire Service who can turn things around in under a day. The dynamics in each case are rather different, but they're both getting stuff out and being used about as fast as they can.
+
+Clearly, this involves people and processes at lots of different levels and places within their respective organisations, but a key element of their ability to deliver quickly is that their code is in good order. They write what they need to write now, and they try not anticipate beyond that.
+
+Or, as you might have heard it put ...
+--
+
+== !
+
+[big]*_Do the simplest thing that could possibly work_*
+
+[NOTE.speaker]
+--
+Not _do the simplest thing_. Definitely not _do the simple thing_. Not _that can work_. The _simplest thing that could possibly work_. We can't be sure, we have to find out.
+
+This isn't my phrasing, of course it isn't, this is far too sensible for anything I'd have come up with. This is a deeply, deeply profound insight.
+
+_Do the simplest thing that could possibly work_
+
+It applies at all levels - from the architecture of our system, through the various layers or tiers or slices, to the packages/modules/namespaces, to the classes and functions, right down to the lines we write.
+
+Now the simplest thing might not be simple. It probably isn't simple, but we should resist overcomplicating. We should build what we need now, because we don't know - we can't know - what we need to build tomorrow. The less we do, the simpler we make the code today, the easier it will be to change it tomorrow.
+
+--
+
+== !
+
+[big]*_Software development is change_*
+
+[NOTE.speaker]
+--
+Software changes. All software - it doesn't matter if we're working on "greenfield" development, or legacyist of legacy software - is about change.
+
+The code we write will need changing. It will need changing because our understanding of what we're try to do has changed. I mean hopefully we have a better understanding, but it's not a given. We're going to changing the behaviour the existing code. We adding new functionality alongside what's already there. We might be taking stuff out. (We probably don't take out as much as we should.)
+
+We should be prepared to change, to modify, and adapt, and discard our previous work. It isn't a reflection on us, it merely that our understanding is now different. We are not our code, it isn't our code. It's code we wrote, but it isn't ours.
+
+Develop the inner strength to do that, and the tools and techniques to help make changes with confidence.
 --
 
 
