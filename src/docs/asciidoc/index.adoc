@@ -172,7 +172,7 @@ The only way to find out the outcomes that people really want is to ask them, bu
 
 We probably can't deliver perfect software, but we can try and get closer over time.
 
-How quickly is quickly? That's going to depend. How often is often? That's going to depend too. For my MoJ colleagues I mentioned earlier, quickly initially meant several months. However, now they've actually got stuff out there, we're probably looking at monthly. That feels pretty good. I work with a team at West Midlands Fire Service who can turn things around in under a day. The dynamics in each case are rather different, but they're both getting stuff out and being used about as fast as they can.
+How quickly is quickly? That's going to depend. How often is often? That's going to depend too. For my MoJ colleagues I mentioned earlier, quickly initially meant several months. However, now they've actually got stuff out there, we're probably looking at monthly. There are organisational reasons why you can't deliver new software into courts more often than that. This is not an arena where we can move fast and break things. Within the team, the cadence is probably higher, but I think they're out to the court about monthly, and that feels pretty good. I work with a team at West Midlands Fire Service who can turn things around in under a day. The dynamics in each case are rather different, but they're both getting stuff out and being used about as fast as they can.
 
 Clearly, this involves people and processes at lots of different levels and places within their respective organisations, but a key element of their ability to deliver quickly is that their code is in good order. They write what they need to write now, and they try not anticipate beyond that.
 
