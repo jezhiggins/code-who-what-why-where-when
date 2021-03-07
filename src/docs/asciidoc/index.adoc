@@ -193,10 +193,18 @@ _Do the simplest thing that could possibly work_
 
 It applies at all levels - from the architecture of our system, through the various layers or tiers or slices, to the packages/modules/namespaces, to the classes and functions, right down to the lines we write.
 
+What are examples of the simplest thing? Well, down at the level of the code things like
+* idiomatic language - what's normal for a language you work in? What does a loop typically look like?
+* using the standard library. Chances are that container is going to be just fine.
+* making everything readonly/final/const - mutable things are complex things
+* holding to the single responsibility principle - a piece of code - function/class/module should have single reason to change
+* your local vernacular - things like code style - camel case, bracket placement, that kind of thing
+* keeping methods and functions short - when you get a few related lines together that form their own little thing - say the two branches of an if, that's a candidate for a new function. If that condition is a little bit complicated - it's this or that, or you're filtering some collection, that kind of thing, that's a candidate
+* functions, of course, need names, so as you break out these functions that names you give them help simplify your code - your putting additional information into the source. Naming things can be hard, and it is a skill you can develop, but if you're having particular trouble naming a function, your code is telling you something about itself. Good names are hugely powerful.
+
 Now the simplest thing might not be simple. It probably isn't simple, but we should resist overcomplicating. We should aim to expresses our understanding, our intentions, as fully we can, in the code. Once we go beyond that, we're into speculation. Speculation is estimation, and we all know how meaningful software estimates are.
 
 We should build what we need now, because we don't know - we can't know - what we need to build tomorrow. What we're doing today changes tomorrow, for everybody. The less we do, the simpler we make the code today, the easier it will be to change it tomorrow.
-
 --
 
 == !
@@ -213,7 +221,7 @@ We should be prepared to change, to modify, and adapt, and discard our previous 
 
 That can be quite difficult to accept, but I would encourage you, strongly encourage you, to try cultivate that attitude within yourself, to learn that humility, and to be tolerant of those that might find a little more difficult.
 
-All change is be a scary. Even if you're sure of where you're going, it's still a step into the unknown. In the context of software development, the best advice I can give is
+All change is a scary. Even if you're sure of where you're going, it's still a step into the unknown. In the context of software development, the best advice I can give is
 --
 
 == !
@@ -251,7 +259,7 @@ Test Driven Development_*
 
 [NOTE.speaker]
 --
-At the risk of sounding like a grumpy old man, many of the names and phrases we use in software development have become devalued almost to the point of meaningless. Continuous Delivery has somehow come to mean using CircleCI to build your Docker images, or DevOps has comes to mean, well, Ops. In many places and too many people Test Driven Development has, sadly, come to mean writing a couple of unit tests before you commit.
+At the risk of sounding like a grumpy old man, many of the names and phrases we use in software development have become devalued almost to the point of meaningless. (Semantic diffusion apparently.) Continuous Delivery has somehow come to mean using CircleCI to build your Docker images, or DevOps has comes to mean, well, Ops. In many places and too many people Test Driven Development has, sadly, come to mean writing a couple of unit tests before you commit.
 
 By test driven development, I really mean _writing code will tell you what you need to write_.
 
@@ -276,7 +284,11 @@ TDD is that same cycle, but for us. But instead of delivering every couple of mo
 
 [NOTE.speaker]
 --
-I want to touch on one last thing before I finish. A lot of what I've talked about has explicitly or implicitly implied that we're all working in one unified team in an organisation with clear priorities, engaged users and all that. I understand, believe me I understand, that this is not the case for all of us. Or probably any of us. However, these practices that I've talked, you can apply them at an individual level too. You can't leap from nothing into _boompf_ our whole code base now has a wonderful test scaffolding, but you can the maxim of doing the simplest thing. You can apply TDD to a leaf class, perhaps. You can observe and modify your own behaviour - am I improving the design, am I changing the functionality.
+Throughout this session, I've emphasised simplicity, working small, making small changes, as we go round a TDD loop making small deliveries, tiny deliveries, putting off thinking about what not useful now for another time, not trying to anticipate the future.
 
-And you will see, and you will feel, the benefits of the practices.
+The human brain is an immensely complex structure, the most complex of all known living structures. Even when we use the full range of our cognitive abilities, our brains have limits - quite clear and measurable limits. And we aren't machines - we tire, and we worry, and we have distractions, and concerns, and feelings. Smaller scope, smaller steps, fewer things to juggle, reduces our cognitive load. It's easier to reason about. It's less tiring. Combine that with the little jolt of red/green/refactor, red/green/refactor and not only will you do better work, you will feel better for it.
+
+I want to touch on one last thing before I finish. A lot of what I've talked about has explicitly or implicitly implied that we're all working in one unified team, in an organisation with clear priorities, engaged users and all that. I understand, believe me I understand, that this is not the case for all of us. Or perhaps any of us. However, these practices that I've talked, you can apply them as an individual. You can't leap from nothing into _boompf_ our whole code base now has a wonderful test scaffolding, but you can aim to do the simplest thing. You can apply TDD, perhaps initially with a little leaf class, something like that. You can observe your own behaviour - am I improving the design, am I changing the functionality - and try to regulate it. Don't be too hard on yourself - we're none of us paragons, and I'd be a liar if I said I worked like this all day every day. But I try, and when things aren't going well, I try harder - I slow down, I take smaller steps, and it generally comes right again.
+
+As you experiment with thses practices, as you become more comfortable with them, you will see, and you will feel, their benefits. You will be a better, and happier, programmer. 
 --
