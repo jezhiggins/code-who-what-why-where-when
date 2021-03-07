@@ -130,7 +130,7 @@ There are no rules we can follow.
 
 If there were, then software would be straightforward, everyone would be doing just fine, and none of us would have gathered here today.
 
-This might sound like a counsel of despair. No rules? Then surely in the grim dark future there is only war? (And, honestly, some of the stories you hear might lead you to this conclusion.) While there may not be rules, we can apply some guidelines, some heuristics.
+This might sound like a counsel of despair. No rules? Then surely in the grim dark future there is only war? (And, honestly, some of the stories you hear might lead you to this conclusion.) While there may not be rules, we can apply some guidelines, some heuristics, some practices.
 
 I've already suggested that we have these difference forces in play, and that we're going to be engaged in some kind of a balancing act between, well not good and evil exactly, or even between law and chaos, but between everyone with an interest in the code.
 
@@ -251,5 +251,32 @@ Test Driven Development_*
 
 [NOTE.speaker]
 --
+At the risk of sounding like a grumpy old man, many of the names and phrases we use in software development have become devalued almost to the point of meaningless. Continuous Delivery has somehow come to mean using CircleCI to build your Docker images, or DevOps has comes to mean, well, Ops. In many places and too many people Test Driven Development has, sadly, come to mean writing a couple of unit tests before you commit.
 
+By test driven development, I really mean _writing code will tell you what you need to write_.
+
+We've got some new piece of functionality. If we start by imagining it already exists, as if we've already implemented it, and write some code that's going to use it, we will naturally start to form the interface to that feature. And because we know what we want it to, the outcomes we want, we can write checks and verifications, _assertions_, on that outcomes. If I put a 5 and 2 in my summing engine, then I expect a 7 out the bottom.
+
+At this point of course, nothings going to work. We haven't, in fact, written it. But now we do that. Actually, we've already designed part of the interface when we wrote that test. This is the driving aspect - how is this code used. We can start to fill out the implementation. When that client code, that test, passes, we know two things - that what we've written works, and that we can now safely make changes to the design of our system.
+
+This is the red-green-refactor cycle.
+
+Test itself is an overloaded term - it can mean an exam, or a throat swab, or oh more salt - but in this red phase, we're building a scaffold or jig around our code. In the green phase, we're implementing whatever our new functionality is. In the refactor, we can now reconcile those changes, improve the design - perhaps there's some commonality we can pull out, or some control flow we can simplify now. And we can do that with confidence, because we have that scaffolding.
+
+Now it might have sounded like after banging on for half an hour about not doing things, I'm suddenly telling you write more code. I both am, and am not. We don't spend that much time actually programming. We spend a lot of our not actually writing code at all. We spend a lot of time understanding it - scanning through, and detailed reading - and we spend a lot of time running the code - either to understand the existing behaviour, or to verify that the change we've just made does what we think it should.
+
+With TDD, over time, we end up with two related codebases - we normally think of coupling as bad, but not in this case, because they will evolve together - the code we're actually going to ship, and a scaffold, around that. One the one side the implementation, and on the other we've got examples of how to use it. And that will save us time on understanding, and save time we spend just trying things out, so we actually spend more of time programming, which is the most fun part.
+
+I've talked a lot about making other people's lives better through our software, and that one of the ways we can do that is by delivering software rapidly, listening to reaction, and then changing and redelivering.
+
+TDD is that same cycle, but for us. But instead of delivering every couple of months, or couple of weeks, or even daily, we deliver, _to ourselves_, every few minutes.  And when you're doing that, it's just the most freeing thing, and those possibilities just open up. That landscape just opens up - you want to go there, ok let's go, rather than _oh, you want to go there? right, erm, hang on ..._
+--
+
+== !
+
+[NOTE.speaker]
+--
+I want to touch on one last thing before I finish. A lot of what I've talked about has explicitly or implicitly implied that we're all working in one unified team in an organisation with clear priorities, engaged users and all that. I understand, believe me I understand, that this is not the case for all of us. Or probably any of us. However, these practices that I've talked, you can apply them at an individual level too. You can't leap from nothing into _boompf_ our whole code base now has a wonderful test scaffolding, but you can the maxim of doing the simplest thing. You can apply TDD to a leaf class, perhaps. You can observe and modify your own behaviour - am I improving the design, am I changing the functionality.
+
+And you will see, and you will feel, the benefits of the practices.
 --
