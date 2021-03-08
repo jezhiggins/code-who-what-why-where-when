@@ -164,7 +164,7 @@ The code itself, the code we write is not important. If we can achieve that aim 
 --
 The difficulty is that people don't know what they want. They can have ideas, and feelings, and intuitions, and they can be very sure about those ideas and feelings. We can ask all the questions we like, offer all kinds of hypotheticals, hold out all kinds of possibilities, and get very definite opinions.
 
-But those ideas and opinions and feelings will change, and one of the key things that will provoke that change is delivering our software to them. Sometimes that reaction will be quite negative, _what is this_? Sometimes, of course, it's quite positive, but generally in a qualified way, _this is good, but could it do ..._. Nobody has every delivered a piece of software and people have looked at it and said _yes, this is perfect, your work here is done_.
+But those ideas and opinions and feelings will change and evolve, and one of the key things that will provoke that change is delivering our software to them. Sometimes that reaction will be quite negative, _what is this_? Sometimes, of course, it's quite positive, but generally in a qualified way, _this is good, but could it do ..._. Nobody has every delivered a piece of software and people have looked at it and said _yes, this is perfect, your work here is done_.
 
 We shouldn't, by the way, use _they don't know what they want_ as an excuse to cut people out. We need them, we need their expertise, we need their advice, we need their help, we need their cooperation.
 
@@ -194,9 +194,11 @@ _Do the simplest thing that could possibly work_
 It applies at all levels - from the architecture of our system, through the various layers or tiers or slices, to the packages/modules/namespaces, to the classes and functions, right down to the lines we write.
 
 What are examples of the simplest thing? Well, down at the level of the code things like
+
+* using familiar terms - if you're working on scheduling fire safety inspections, call it the fire safety inspection scheduler.
 * idiomatic language - what's normal for a language you work in? What does a loop typically look like?
 * using the standard library. Chances are that container is going to be just fine.
-* making everything readonly/final/const - mutable things are complex things
+* making everything readonly/final/const - mutable things are immediately more difficult things
 * holding to the single responsibility principle - a piece of code - function/class/module should have single reason to change
 * your local vernacular - things like code style - camel case, bracket placement, that kind of thing
 * keeping methods and functions short - when you get a few related lines together that form their own little thing - say the two branches of an if, that's a candidate for a new function. If that condition is a little bit complicated - it's this or that, or you're filtering some collection, that kind of thing, that's a candidate
@@ -266,8 +268,17 @@ By test driven development, I really mean _writing code will tell you what you n
 We've got some new piece of functionality. If we start by imagining it already exists, as if we've already implemented it, and write some code that's going to use it, we will naturally start to form the interface to that feature. And because we know what we want it to, the outcomes we want, we can write checks and verifications, _assertions_, on that outcomes. If I put a 5 and 2 in my summing engine, then I expect a 7 out the bottom.
 
 At this point of course, nothings going to work. We haven't, in fact, written it. But now we do that. Actually, we've already designed part of the interface when we wrote that test. This is the driving aspect - how is this code used. We can start to fill out the implementation. When that client code, that test, passes, we know two things - that what we've written works, and that we can now safely make changes to the design of our system.
+--
 
-This is the red-green-refactor cycle.
+== !
+
+image::images/red-green-refactor-nat-pryce.jpeg[]
+
+[NOTE.speaker]
+--
+This is the red-green-refactor cycle or, more accessibly, write a failing test, make the test pass, refactor
+
+This is Nat Pryce's picture from his book with Steve Freeman, Growing Object-Oriented Software Guided By Tests, or GOOS
 
 Test itself is an overloaded term - it can mean an exam, or a throat swab, or oh more salt - but in this red phase, we're building a scaffold or jig around our code. In the green phase, we're implementing whatever our new functionality is. In the refactor, we can now reconcile those changes, improve the design - perhaps there's some commonality we can pull out, or some control flow we can simplify now. And we can do that with confidence, because we have that scaffolding.
 
@@ -282,6 +293,8 @@ TDD is that same cycle, but for us. But instead of delivering every couple of mo
 
 == !
 
+[big]*_Be the tortoise_*
+
 [NOTE.speaker]
 --
 Throughout this session, I've emphasised simplicity, working small, making small changes, as we go round a TDD loop making small deliveries, tiny deliveries, putting off thinking about what not useful now for another time, not trying to anticipate the future.
@@ -290,5 +303,5 @@ The human brain is an immensely complex structure, the most complex of all known
 
 I want to touch on one last thing before I finish. A lot of what I've talked about has explicitly or implicitly implied that we're all working in one unified team, in an organisation with clear priorities, engaged users and all that. I understand, believe me I understand, that this is not the case for all of us. Or perhaps any of us. However, these practices that I've talked, you can apply them as an individual. You can't leap from nothing into _boompf_ our whole code base now has a wonderful test scaffolding, but you can aim to do the simplest thing. You can apply TDD, perhaps initially with a little leaf class, something like that. You can observe your own behaviour - am I improving the design, am I changing the functionality - and try to regulate it. Don't be too hard on yourself - we're none of us paragons, and I'd be a liar if I said I worked like this all day every day. But I try, and when things aren't going well, I try harder - I slow down, I take smaller steps, and it generally comes right again.
 
-As you experiment with thses practices, as you become more comfortable with them, you will see, and you will feel, their benefits. You will be a better, and happier, programmer. 
+As you experiment with thses practices, as you become more comfortable with them, you will see, and you will feel, their benefits. You will be a better, and happier, programmer.
 --
