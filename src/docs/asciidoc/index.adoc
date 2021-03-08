@@ -132,11 +132,11 @@ There are no rules we can follow.
 
 If there were, then software would be straightforward, everyone would be doing just fine, and none of us would have gathered here today.
 
-This might sound like a counsel of despair. No rules? Then surely in the grim dark future there is only war? (And, honestly, some of the stories you hear might lead you to this conclusion.) While there may not be rules, we can apply some guidelines, some heuristics, some practices.
+This might sound like a counsel of despair. No rules? Then surely in the grim dark future there is only war? (And, honestly, some of the stories you hear might lead you to this conclusion.) While there may not be rules, we can apply some guidelines, some heuristics, some practices, patterns.
 
 I've already suggested that we have these difference forces in play, and that we're going to be engaged in some kind of a balancing act between, well not good and evil exactly, or even between law and chaos, but between everyone with an interest in the code.
 
-Consequently, there's a tension between these guidelines, and actually within the guidelines themselves. This is true not just in this session, but I suspect we'll see it again and again throughout the day.
+Consequently, there's a tension between these guidelines, and actually within the guidelines themselves. And because they're not rules, there's no single right way to apply them. We have to find out, keep on finding out, what works for each of us, in our context. Actually this is true not just in this session, but I suspect we'll see it again and again throughout the day.
 
 Ok, let's get going
 --
