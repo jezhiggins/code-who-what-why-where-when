@@ -5,6 +5,7 @@ Jez Higgins, jez@jezuk.co.uk
 :customcss: style/theme-tweak.css
 :revealjs_theme: white
 :revealjs_progress: false
+:revealjs_controls: false
 
 == !
 
