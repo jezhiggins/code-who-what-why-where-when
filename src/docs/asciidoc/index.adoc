@@ -9,6 +9,10 @@ Jez Higgins, jez@jezuk.co.uk
 
 == !
 
+image::images/otter-and-ember.jpg[]
+
+== !
+
 [big]*CODE*
 
 *Who, What, Why, Where, When* +
@@ -206,8 +210,17 @@ What are examples of the simplest thing? Well, down at the level of the code thi
 * your local vernacular - things like code style - camel case, bracket placement, that kind of thing
 * keeping methods and functions short - when you get a few related lines together that form their own little thing - say the two branches of an if, that's a candidate for a new function. If that condition is a little bit complicated - it's this or that, or you're filtering some collection, that kind of thing, that's a candidate
 * functions, of course, need names, so as you break out these functions that names you give them help simplify your code - your putting additional information into the source. Naming things can be hard, and it is a skill you can develop, but if you're having particular trouble naming a function, your code is telling you something about itself. Good names are hugely powerful.
+--
 
-Now the simplest thing might not be simple. It probably isn't simple, but we should resist overcomplicating. We should aim to expresses our understanding, our intentions, as fully we can, in the code. Once we go beyond that, we're into speculation. Speculation is estimation, and we all know how meaningful software estimates are.
+== !
+
+[big]*_The simplest thing might not be simple_*
+
+[NOTE.speaker]
+--
+Now the simplest thing might not be simple. And what's simple in one context might be ludicrous in another. These aren't rules, remember, they're practices, guidelines.
+
+So what we're doing probably isn't simple, but we should resist overcomplicating. We should aim to express our understanding, our intentions, as fully we can, in the code. And then stop. Once we go beyond that, we're into speculation. Speculation is estimation, and we all know how meaningful software estimates are.
 
 We should build what we need now, because we don't know - we can't know - what we need to build tomorrow. What we're doing today changes tomorrow, for everybody. The less we do, the simpler we make the code today, the easier it will be to change it tomorrow.
 --
