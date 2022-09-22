@@ -321,7 +321,7 @@ The human brain is an immensely complex structure, the most complex of all known
 
 I want to touch on one last thing before I finish. A lot of what I've talked about has explicitly or implicitly implied that we're all working in one unified team, in an organisation with clear priorities, engaged users and all that. I understand, believe me I understand, that this is not the case for all of us. Or perhaps any of us. However, these practices that I've talked, you can apply them as an individual. You can't leap from nothing into _boompf_ our whole code base now has a wonderful test scaffolding, but you can aim to do the simplest thing. You can apply TDD, perhaps initially with a little leaf class, something like that. You can observe your own behaviour - am I improving the design, am I changing the functionality - and try to regulate it. Don't be too hard on yourself - we're none of us paragons, and I'd be a liar if I said I worked like this all day every day. But I try, and when things aren't going well, I try harder - I slow down, I take smaller steps, and it generally comes right again.
 
-As you experiment with thses practices, as you become more comfortable with them, you will see, and you will feel, their benefits. You will be a better, and happier, programmer.
+As you experiment with these practices, as you become more comfortable with them, you will see, and you will feel, their benefits. You will be a better, and happier, programmer.
 
 Thank you for your time, thank you for your attention.
 --
