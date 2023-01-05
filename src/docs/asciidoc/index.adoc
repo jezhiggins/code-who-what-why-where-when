@@ -9,10 +9,6 @@ Jez Higgins, jez@jezuk.co.uk
 
 == !
 
-image::images/otter-and-ember.jpg[]
-
-== !
-
 [big]*CODE*
 
 *Who, What, Why, Where, When* +
@@ -20,7 +16,9 @@ image::images/otter-and-ember.jpg[]
 
 _Jez Higgins_
 
-ACCU 101: Early Career Day
+@jezhiggins@mastondon.me.uk
+
+jez@jezuk.co.uk
 
 [NOTE.speaker]
 --
@@ -32,9 +30,9 @@ Hello again friends, I'm Jez and I'm here to talk with you about code.
 * Where we should focus our attention
 * And honestly, I thought of what seemed like a snappy title, then had to backfill in the abstract to make the title work.
 
-I want us to think about code in the large and in the small, and along the way we'll be addressing the key questions of tabs vs spaces, emacs vs vi, and whether Thor is stronger than the Hulk.
+I want us to think about code in the large and in the small, and along the way we'll be addressing the key questions of tabs vs spaces, JavaScript vs TypeScript, Norwich vs Ipswich, and whether Thor is stronger than the Hulk.
 
-No, of course, we won't, because those things are insoluable and, whisper it, unimportant. There are so many insoluable important things we could be thinking about instead.
+No, of course, we won't, because those things are insoluble and, whisper it, unimportant. There are so many insoluble important things we could be thinking about instead.
 
 If you were to say to me, write us some code, right now, this minute, then sure I can write you some code. And if I said the same to you, could you, all of you here, write some code right now, you'd all say yes, right?
 --
@@ -53,7 +51,7 @@ Yes!
 
 Because it's easy, right? We all know how to write code, probably in more than one language, perhaps in quite a few.
 
-But if I did say to you "write me some code", what would you immediately ask of me?
+So if I did say to you "write me some code", what would you immediately ask of me?
 --
 
 == !
@@ -79,7 +77,7 @@ Because code is hard.
 
 [NOTE.speaker]
 --
-When we write code, we taking stuff that we just think up - it comes from inside us  - and communicate that as directly as we can into the computer.  And, after a little bit of practice, that's an easy process.
+When we write code, we're taking stuff that we just think up - it comes from inside us  - and communicate that as directly as we can into the computer.  And, after a little of bit of practice, that's an easy process.
 
 But the very same things that make writing code easy is what makes writing it hard.
 
@@ -96,7 +94,7 @@ Because code is easy, we can write code all day. And we all know where this is g
 
 [NOTE.speaker]
 --
-I've talked so far here about us. What _we_ can imagine, what _we_ can express, what each of us, individually, can imagine and express.
+I've talked so far here about us. What _we_ can imagine, what _we_ can express, what each of us, individually and together, can imagine and express.
 
 The reality is though, as noted in the _what should I write_ question a moment ago, is that we're not usually engaged in writing software for our own amusement, we're writing for other people, and generally not for their amusement. We're writing it help in their work, or to give them access to some service - maybe book a holiday (perhaps a bad example at the moment), or to inform them they're eligible for a vaccine, or to pay a bill. Or whatever it is - you don't need me to give a list of things we use software for. You're not just programmers, you're normal people too :) You've seen software.
 
@@ -115,11 +113,11 @@ We have to understand what they want they all want too? And get all that into th
 --
 Code is easy, and code is hard, at the same time.
 
-This is the fundamental paradox in the code we write.
+This is the fundamental paradox of the medium in which we work.
 
-We can write reams and reams of it at almost no cost. We can do unimaginable computations in fractions of a second, we chew through vast quantities of data in moments. I'm not talking about things that would astonish our grandparents, I'm taking about capabilities that would amaze ourselves of 10 years ago, five years ago even.
+We can write reams and reams of it at almost no cost. We can do incredible computations in fractions of a second, we chew through vast quantities of data in moments. I'm not talking about things that would astonish our grandparents, I'm taking about capabilities that would amaze ourselves of 10 years ago, five years ago even.
 
-We can do these incredible things, just like that. It's like we have magic in our fingertips. This is ours to command. But the ease with which we can produce that code, can crunch those numbers, that open up these huge possibilities, this vast space we can explore - which is why it's so thrilling - is also why writing code can be so very, very hard.
+We can do these incredible things, just like that. It's like we have magic in our fingertips. This is ours to command. But the ease with which we can produce that code, can crunch those numbers, that open up these huge possibilities, these vast multidimensional hyperspace manifolds we can explore - which is why it's so thrilling - is also why writing code can be so very, very hard. How do we navigate this myriad of possibilities?
 
 There's a real tension there, at the very heart of what we do as _software professionals_, as programmers. We have to try and tame that paradox. It's present at all levels, but it's most manifest, most there, down there at the level of the code.
 
@@ -139,9 +137,12 @@ If there were, then software would be straightforward, everyone would be doing j
 
 This might sound like a counsel of despair. No rules? Then surely in the grim dark future there is only war? (And, honestly, some of the stories you hear might lead you to this conclusion.) While there may not be rules, we can apply some guidelines, some heuristics, some practices, patterns.
 
-I've already suggested that we have these difference forces in play, and that we're going to be engaged in some kind of a balancing act between, well not good and evil exactly, or even between law and chaos, but between everyone with an interest in the code.
+I've already suggested that we have these different forces in play, and that we're going to be engaged in some kind of a balancing act between, well not good and evil exactly, or even between law and chaos - would that it were so binary - we're trying to find a compromise between the ease with which we can express our idea, the difficulty we sometimes have in expressing it, what it is we actually need to say, what it is that people want us to say.
 
-Consequently, there's a tension between these guidelines, and actually within the guidelines themselves. And because they're not rules, there's no single right way to apply them. We have to find out, keep on finding out, what works for each of us, in our context. Actually this is true not just in this session, but I suspect we'll see it again and again throughout the day.
+
+but between everyone with an interest in the code <<<< this doesn't follow from what I've said so far
+
+Consequently, there's a tension between these guidelines, and actually within the guidelines themselves. And because they're not rules, there's no single right way to apply them. We have to find out, keep on finding out, what works for each of us, in our context.
 
 Ok, let's get going
 --
