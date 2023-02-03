@@ -22,6 +22,20 @@ jez@jezuk.co.uk
 [NOTE.speaker]
 --
 Hello again friends, I'm Jez and I'm here to talk with you about code.
+
+* Who it's for
+
+* What it's for
+
+* Why we write it
+
+and honestly, I was pleased with myself for coming up with what I thought was a snappy title, but then couldn't actually backfill enough to make what I'm going to say hit all those w-words.
+
+Anyway, let's have a go at thinking about code. In the large and in the small, and maybe we'll address some key questions like tabs vs spaces, JavaScript vs TypeScript, and, maybe, where's the best place in Norfolk to go to the seaside.
+
+Actually we won't, because there are no right answers to those questions. They're insoluable and, whisper it, unimportant. There are so many more soluable important things we could be thinking about instead.
+
+If you were to say to me _write us some code, straightaway, this minute_ then sure, I can write you some code. And if I asked the same of you, all of you here, _pull out your laptop, write me some code, here in the hall now_, you'd have you hand your bag before I got to the end of the sentence, right? Right?
 --
 
 == !
@@ -30,6 +44,14 @@ Hello again friends, I'm Jez and I'm here to talk with you about code.
 
 [NOTE.speaker]
 --
+Because writing code is easy, right?
+
+Right?
+
+We all know how to write code, probably in more than one language, perhaps in quite a few.
+
+So, stick your hands in your bags ... No, no, no, don't do it, because we'd all get excited and then there'd be this awkward pause, and you'd all lift your faces from the screens and look up at me here, and I'd feel even more embarrassed and nervous than I already am, with puzzled looks on your eager faces and you'd ask ...
+
 --
 
 == !
@@ -38,6 +60,17 @@ Hello again friends, I'm Jez and I'm here to talk with you about code.
 
 [NOTE.speaker]
 --
+What should I write?
+
+What. Should. I. Write?
+
+Excellent question. Excellent question.
+
+This is the key question that we, all of us here, as professional programmers, all of us in the wider programming community, should be asking.
+
+What should I write?
+
+Because code is hard.
 --
 
 == !
@@ -46,6 +79,7 @@ Hello again friends, I'm Jez and I'm here to talk with you about code.
 
 [NOTE.speaker]
 --
+
 --
 
 == !
@@ -175,7 +209,7 @@ When we ship, in whatever form that takes, we're gathering up all those changes,
 
 In order to be able to deliver the software people want, all those people involved (including us!) we talked about earlier who's needs and wants are evolving over time all the time, our code must be amenable to change. The potential within is only revealed as we change it. So we need to keep the code in good order, in a state we can easily manipulate and modify. And one of the key ways we can achieve that is by making each step we take - each refactoring, every new behaviour - as small as we can.
 
-By keeping each step small and focussed, we keep the scope of the next step as open as we can. 
+By keeping each step small and focussed, we keep the scope of the next step as open as we can.
 --
 
 
