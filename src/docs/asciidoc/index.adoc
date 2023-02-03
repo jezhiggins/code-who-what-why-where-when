@@ -83,7 +83,15 @@ When we write code, we're taking stuff we just think up - it comes from inside u
 
 But! But, but, but. The very same things that make writing code easy is what makes writing hard.
 
-We can imagine pretty much whatever we want, we can roam far and wide through the possibilities. 
+We can imagine pretty much whatever we want, we can roam far and wide through the possibilities, it just explodes out in front of us, and then on and on and on. And there's just so much we can do ...
+
+Capturing the piece that we want, expressing that precisely and correctly in code can be very difficult. We've got this abundance of choices and we're trying to bring it down to the one we want, the one we need. That can be difficult.
+
+And often it feel like the way to tame those choices, to trim those branching possibilities, is to write more code - if we make that generic than it'll cover that case, but ah yes, February only has 28 days, except in an Olympic year, but don't forget the 2020/2021 Tokyo anomaly ... and then it's we're off again.
+
+Because code is easy we can write it all day.
+
+Because code is hard we can spend all day writing it.
 --
 
 == !
