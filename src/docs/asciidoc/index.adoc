@@ -79,7 +79,11 @@ Because code is hard.
 
 [NOTE.speaker]
 --
+When we write code, we're taking stuff we just think up - it comes from inside us - and communicate that into the computer and then the computer does the stuff! It's amazing! We might have forgotten, or perhaps just go to used to it, that's actually pretty incredible - we can just think things into existence. And with a little bit of practice getting that out of your brain and into the laptop, that's quite an easy process.
 
+But! But, but, but. The very same things that make writing code easy is what makes writing hard.
+
+We can imagine pretty much whatever we want, we can roam far and wide through the possibilities. 
 --
 
 == !
