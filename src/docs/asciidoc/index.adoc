@@ -144,7 +144,9 @@ We do make and do these amazing things, just like that. It's like we have magic 
 
 There's a real tension there, at the heart of what we do as programmers, as _software professionals_. We have to try and tame that paradox. It exists at all levels, but it's most manifest, most there, down at the level of the code.
 
+So, big keynote at the end of the day, this is the place to unveil a startling new way though?
 
+Well, this is where I let you down. We aren't cutting the Gordian Knot. We can't just squint until the magic eye picture suddenly resolves. The Mobius strip is not going to untwist into a nice little loop. There is no trick.
 --
 
 == !
@@ -153,6 +155,19 @@ There's a real tension there, at the heart of what we do as programmers, as _sof
 
 [NOTE.speaker]
 --
+There are no rules we can follow.
+
+If there were, then software would be straightforward, everyone would be doing just fine, and none of us would have gathered here today.
+
+That might sound like a counsel of dispair. No rules? Then surely in the grim dark future there is only war?
+
+While there may not be rules, we can apply some guidelines, some heuristics, some practices, and patterns.
+
+I've already suggested that we have these different forces in play - think of all those people with an interest in the software we write. We're going to be engaged in a kind of balancing act between, well not good and evil, or even between order and chaos - would that it were so binary - we're to find a compromise between the ease with we can come up with ideas, the difficult to have in expressing those ideas, whatever it is we actually need to say, and what is that people want us to say.
+
+Consequently, even with the guidelines we adopt, there's a tension there, between different guidelines and embedded within heuristics themselves. Because they're not rules, there's no single right way to apply them. We have to find out, keep on finding out, what works for each of us, in our context.
+
+
 --
 
 == !
