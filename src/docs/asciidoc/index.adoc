@@ -100,6 +100,26 @@ Because code is hard we can spend all day writing it.
 
 [NOTE.speaker]
 --
+I've talked so far about us. What _we_ can imagine, what _we_ can express, what each of _us_, individually and together, can imagine and express.
+
+In practice though, as noted in the _What should I write_ question a moment ago, is that we are not, usually, engaged in writing software for our own amusement. We're writing it for other people, and generally not for their amusement. We're writing it to help in their work, or to give them access to some service, or to make sure they get paid, or to keep the lights on - you don't need me to give you a list, you seen software.
+
+The people who are going to use our software, who are they? Well, there's the people who want to access that service, get paid, or whatever, well, yea. But there are also the people working with us - other programmers, UI designers, maybe copywriters or video artists. If you have a support desk, what do they need? Are there operations staff that will be looking after the software. Surely there's a manager or two in the mix somewhere. Perhaps a funding agency.
+--
+
+== !
+
+[big]*Code is for Everybody*
+
+[NOTE.speaker]
+--
+All these people, and more, have an interest in the software.
+
+So not only do we have our own thoughts, layered on those are almost infinite number of other people's thoughts too, and we somehow have to convert that into working software?
+
+Yes. And we do. We do every day.
+
+Because code is easy, and code is hard.
 --
 
 == !
@@ -112,6 +132,19 @@ Because code is hard we can spend all day writing it.
 
 [NOTE.speaker]
 --
+Because code is easy, and code is hard.
+
+Code is easy and code is hard, at the same time.
+
+This is the fundamental paradox of the medium in which we work.
+
+We can write reams and reams of code at almost no cost. We can do incredible computations in fractions of a second, chew through vast quantities of data in momnets. I'm not talking about things that would astonish our grandparents. I'm talking about capabilities that would amaze ourselves of ten years ago, five years ago even.
+
+We do make and do these amazing things, just like that. It's like we have magic in our fingertips. This is ours to command. But the ease with which we can produce that code, can crunch those numbers, that open up these huge potentialities, the vast multidimensional hyperspace manifolds we can explore - that's why it's so thrilling - is also why writing code can be so very, very difficult. How do we navigate this myriad of possibilities?
+
+There's a real tension there, at the heart of what we do as programmers, as _software professionals_. We have to try and tame that paradox. It exists at all levels, but it's most manifest, most there, down at the level of the code.
+
+
 --
 
 == !
