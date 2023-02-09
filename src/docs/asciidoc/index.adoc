@@ -195,6 +195,23 @@ The code itself, the code we write is not important. If we can some aim by not w
 
 [NOTE.speaker]
 --
+The difficulty there is that people don't know what they want. We can have ideas, and feelings, and intuitions, and they can be very sure about those ideas and feelings. We can ask all kinds of questions, offer all kinds of hypotheticals, hold out all kinds of possibilities, and get very definite opinions and answers.
+
+But those ideas and opinions and feelings will evolve and develop, and one of the key things that will provoke that change is giving our software to them.
+
+Sometimes that reaction will be quite negative. It might be very positive, although often in a qualified way - _this is good, but could it ..._ Nobody has ever passed over a piece of software and people have used it and say _yes, this is perfect, your work here is done_
+
+We shouldn't, by the way, use _they don't know what they want_ as an excuse to cut people out. We need them, we need their expertise, we need their advice, we need their help, we need their cooperation.
+
+The only way to discover the outcomes people really desire is to ask them their reckons, build something, show it to them (ideally in a real situation), and then ask them again. For that to be useful, fulfilling process, we need to do that as quickly as possible, as often as possible.
+
+We can't give people perfect software, but we can try and get closer and closer over time.
+
+How quickly is quickly? It depends. How often is often? That depends too. For my MoJ colleagues, I think they deliver into the courts about monthly. There are organisational reasons why you can't do it more often than that. With a team I work with a West Midlands Fire Service, they can turn things around in under a day. Over the past month, I've been delivering ever couple of hours. The dynamics in each case are different, but they're getting stuff out and in to use about as fast as they can.
+
+Those thoughtspaces we can explore? The people we work have their own thoughtspaces, their imagination is just as rich as ours, but each us can only see so far. As we work together, the code we write, as we manifest those thoughts, that changes the immediate landscape we can see, opens up new paths, makes it apparent that other directions are less useful, gives us a glimpse over the hill. That's part of the power of the software we write.
+
+The more often we can provide the code to people, the smoother our journeys through our shifting landscapes will be.
 --
 
 == !
