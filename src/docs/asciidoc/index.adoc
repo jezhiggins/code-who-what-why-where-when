@@ -117,7 +117,7 @@ All these people, and more, have an interest in the software.
 
 So not only do we have our own thoughts, layered on those are almost infinite number of other people's thoughts too, and we somehow have to convert that into working software?
 
-Yes. And we do. We do every day.
+Yes. And we do. We do all the time.
 
 Because code is easy, and code is hard.
 --
@@ -138,7 +138,7 @@ Code is easy and code is hard, at the same time.
 
 This is the fundamental paradox of the medium in which we work.
 
-We can write reams and reams of code at almost no cost. We can do incredible computations in fractions of a second, chew through vast quantities of data in momnets. I'm not talking about things that would astonish our grandparents. I'm talking about capabilities that would amaze ourselves of ten years ago, five years ago even.
+We can write reams and reams of code at almost no cost. We can do incredible computations in fractions of a second, chew through vast quantities of data in moments. I'm not talking about things that would astonish our grandparents. I'm talking about capabilities that would amaze ourselves of ten years ago, five years ago even.
 
 We do make and do these amazing things, just like that. It's like we have magic in our fingertips. This is ours to command. But the ease with which we can produce that code, can crunch those numbers, that open up these huge potentialities, the vast multidimensional hyperspace manifolds we can explore - that's why it's so thrilling - is also why writing code can be so very, very difficult. How do we navigate this myriad of possibilities?
 
@@ -159,15 +159,13 @@ There are no rules we can follow.
 
 If there were, then software would be straightforward, everyone would be doing just fine, and none of us would have gathered here today.
 
-That might sound like a counsel of dispair. No rules? Then surely in the grim dark future there is only war?
+That might sound like a counsel of despair. No rules? Then surely in the grim dark future there is only war?
 
-While there may not be rules, we can apply some guidelines, some heuristics, some practices, and patterns.
+While there may not be rules, we can apply some guidelines, some heuristics, some practices, and patterns. We can hold some ideas in consideration.
 
-I've already suggested that we have these different forces in play - think of all those people with an interest in the software we write. We're going to be engaged in a kind of balancing act between, well not good and evil, or even between order and chaos - would that it were so binary - we're to find a compromise between the ease with we can come up with ideas, the difficult to have in expressing those ideas, whatever it is we actually need to say, and what is that people want us to say.
+I've already suggested that we have these different forces in play - think of all those people with an interest in the software we write. We're going to be engaged in a kind of balancing act between, well not good and evil, or even between order and chaos - would that it were so binary - we're to find a compromise between the ease with we can come up with ideas, the difficult to have in expressing those ideas, what is that people want us to say, and whatever it is we actually need to say.
 
-Consequently, even with the guidelines we adopt, there's a tension there, between different guidelines and embedded within heuristics themselves. Because they're not rules, there's no single right way to apply them. We have to find out, keep on finding out, what works for each of us, in our context.
-
-
+Consequently, even any guidelines we may adopt, there's a tension there, between different guidelines and embedded within heuristics themselves. Because they're not rules, there's no single right way to apply them. We have to find out, keep on finding out, what works for each of us, in our context.
 --
 
 == !
@@ -176,6 +174,17 @@ Consequently, even with the guidelines we adopt, there's a tension there, betwee
 
 [NOTE.speaker]
 --
+The people who use our software are deeply, deeply uninterested in our code. They are interested in what the code does for them and, generally speaking for the kind of commercial software most of us are engaged in, how it makes their lives easier. They are interested in, and I hate to use such a management sounding word but it's true, they are interested _in outcomes_, and we should be to.
+
+This is an extreme example, but I did a little bit of work for a student at the university where I was working. He later told me I'd saved him 9 months of hand calculation. The meant he could submit his PhD thesis earlier than he'd ever expected. He subsequently got a research position in Hawaii and lived in a tropical paradise for the next twenty years. We can, quite genuinely, change lives with an afternoon of nudging around a few Excel formulas.
+
+As more every day example is the work some of my colleagues at the Ministry of Justice were (and hopefully still are) doing, on preparing court lists - this is the list of trial that are schedule for that day. The service they were working on reduced the time it took for court staff to prepare from around 90 minutes to about 20 minutes. Now for the people who do that work, who it should be noted are overworked as it is, that's great. Maybe that can knock off a bit earlier - I hope so. But, without digging into the details, it also means that more trials go ahead, which is beneficial for victims of crime and for the alleged perpetrators. That's better for society as a whole. Does society care that some of the code is written in JavaScript using the GovUK widgets, or that the back is written in Kotlin with Spring Boot, and the whole thing is deployed into the MoJ Cloud Platform. No, not a jot. Do we, as a society, care about the administration of the criminal justice system? Yes, yes, I think we do.
+
+Now, not everything we do is going to have such a big impact, potentially such a direct societal impact, but the code we write reaches beyond us, and beyond the immediate people who use it, out more widely.
+
+This starts to touch on the ethics of the software we write, but that's a whole different talk.
+
+The code itself, the code we write is not important. If we can some aim by not writing any code, then we should not write any code. We should focus on outcomes, on what people want to do.
 --
 
 == !
