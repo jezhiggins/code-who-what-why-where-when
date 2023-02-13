@@ -199,7 +199,7 @@ The difficulty there is that people don't know what they want. We can have ideas
 
 But those ideas and opinions and feelings will evolve and develop, and one of the key things that will provoke that change is giving our software to them.
 
-Sometimes that reaction will be quite negative. It might be very positive, although often in a qualified way - _this is good, but could it ..._ Nobody has ever passed over a piece of software and people have used it and say _yes, this is perfect, your work here is done_
+Sometimes that reaction may be quite negative. It might be very positive, although often in a qualified way - _this is good, but could it ..._ Nobody has ever passed over a piece of software and people have used it and say _yes, this is perfect, your work here is done_
 
 We shouldn't, by the way, use _they don't know what they want_ as an excuse to cut people out. We need them, we need their expertise, we need their advice, we need their help, we need their cooperation.
 
@@ -209,7 +209,7 @@ We can't give people perfect software, but we can try and get closer and closer 
 
 How quickly is quickly? It depends. How often is often? That depends too. For my MoJ colleagues, I think they deliver into the courts about monthly. There are organisational reasons why you can't do it more often than that. With a team I work with a West Midlands Fire Service, they can turn things around in under a day. Over the past month, I've been delivering ever couple of hours. The dynamics in each case are different, but they're getting stuff out and in to use about as fast as they can.
 
-Those thoughtspaces we can explore? The people we work have their own thoughtspaces, their imagination is just as rich as ours, but each us can only see so far. As we work together, the code we write, as we manifest those thoughts, that changes the immediate landscape we can see, opens up new paths, makes it apparent that other directions are less useful, gives us a glimpse over the hill. That's part of the power of the software we write.
+Those thoughtspaces we can explore? The people we work have their own spaces, their imagination is just as rich as ours, but each us can only see so far. That's why there's that uncertainty. You can see a place a little way away, and as you head toward it together, the code we write, that manifests those thoughts, changes the immediate landscape we can see, opens up new paths, makes it apparent that other directions are less useful, gives us a glimpse over the hill. It's not just that we're moving through that landscape, the landscape is dynamic, it's that the landscape is being changed as we move, we change it as we move. The software that we create, it makes those thoughts manifest, so it has a profound on that landscape. That's part of the power of the software we write.
 
 The more often we can provide the code to people, the smoother our journeys through our shifting landscapes will be.
 --
@@ -222,6 +222,7 @@ The more often we can provide the code to people, the smoother our journeys thro
 
 [NOTE.speaker]
 --
+
 --
 
 == !
@@ -260,7 +261,7 @@ Conceptually these two steps form a single action, I'm only moving one ticket ac
 
 Within each step we should be clear about what we're doing - we're modifying the shape of the code, or we're evolving the functionality of our program. These steps could be tiny - as small as extracting a single method or adding a single line of logging - but as we do the work we need to know which of these we're doing.
 
-Improve the design or change the behaviour.
+Improve the design or change the functionality.
 --
 
 == !
@@ -269,7 +270,7 @@ Improve the design or change the behaviour.
 
 *or*
 
-[big]*Change The Functionality*
+[big]*Change The Behaviour*
 
 [NOTE.speaker]
 --
