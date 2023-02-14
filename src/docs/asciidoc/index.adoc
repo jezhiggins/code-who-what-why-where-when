@@ -233,9 +233,22 @@ We are making choices in every line we write. Is this an if or a switch? Have I 
 Now we adopt various of ways of trying deliberately limiting the scope of what we need to think about
 
 * using familiar terms - if you're working on scheduling fire safety inspections, call it the fire safety inspection scheduler.
-* idiomatic language - 
+* idiomatic usage - what's normal for the language you're working in? What does a loop typically look like?
+* use the library - chances are that container is going to be just fine.
+* make everything readonly - or final or const. Mutable things are immediately more difficult to work with?
+* maintain your local vernacular - things like code style, came case, bracket placement, that kind of thing
+* keep methods and functions short - when you get few lines that form their own thing, say the two branches of an if, that's a candidate for a new function. If the condition itself is a little bit awkward - it's this and that or that other thing - that's a candidate
+* functions, of course, need names so as you break these out these functions the names you give them illuminate your code - your putting additional information right into your source that you can encode any other way. If you can't find a name, the code is telling you something about itself. Names are hugely powerful.
 
+We can be applying all these little techniques and more, but still being having a difficult time creating our software. Our journey is not smooth - there are crags to scale and crevasses to traverse.
 
+While I think we should be trying to give new code to people as often as we can, there someone else we can provide code to even more often.
+
+Ourselves!
+
+We can provide new code to our users - and that includes us - every few minutes. And the way we do that is by writing only as much software as we need. What do I need to right now to take a single action? Do that. Commit it. Get the doughnuts in. Don't look ahead, don't anticipate. That temptation is always there - but resist it as best you can.
+
+Write as much software as you need, but only as much as you need. 
 --
 
 == !
