@@ -248,7 +248,7 @@ Ourselves!
 
 We can provide new code to our users - and that includes us - every few minutes. And the way we do that is by writing only as much software as we need. What do I need to right now to take a single action? Do that. Commit it. Get the doughnuts in. Don't look ahead, don't anticipate. That temptation is always there - but resist it as best you can.
 
-Write as much software as you need, but only as much as you need. 
+Write as much software as you need, but only as much as you need. If we can do that, then what we write will necessarily tend toward the simplest it can be. 
 --
 
 == !
