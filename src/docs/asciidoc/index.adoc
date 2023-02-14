@@ -222,6 +222,19 @@ The more often we can provide the code to people, the smoother our journeys thro
 
 [NOTE.speaker]
 --
+The more often we can provide the code to the people who will use it, the smoother our joint journey through our shifting landscapes will be.
+
+It would be wonder if they could be with us the whole time but, unfortunately this is very rarely the case. We've got to go on ahead without them, and then teleport along to catch up with us. As we navigate that period without them, we in the same kind of bind that we were when I was threatening to ask you to pull your laptop out at the start.
+
+There's a fractal nature to software development. The shapes that we make with our software at the macro scale, repeat and repeat and repeat right down to the very bottom. I suppose, actually, it's coming up, isn't from the microcode, through the languages we work in, up and out into services and networks, and on and on.
+
+We are making choices in every line we write. Is this an if or a switch? Have I just found a weakness in my object model? Or something else. There's a lot to consider.
+
+Now we adopt various of ways of trying deliberately limiting the scope of what we need to think about
+
+* using familiar terms - if you're working on scheduling fire safety inspections, call it the fire safety inspection scheduler.
+* idiomatic language - 
+
 
 --
 
