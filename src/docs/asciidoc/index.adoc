@@ -248,17 +248,22 @@ Ourselves!
 
 We can provide new code to our users - and that includes us - every few minutes. And the way we do that is by writing only as much software as we need. What do I need to right now to take a single action? Do that. Commit it. Get the doughnuts in. Don't look ahead, don't anticipate. That temptation is always there - but resist it as best you can.
 
-Write as much software as you need, but only as much as you need. If we can do that, then what we write will necessarily tend toward the simplest it can be. 
+Write as much software as you need, but only as much as you need. If we can do that, then what we write will naturally, necessarily, tend toward the simple. If we really do only write what we need, it will be the simplest it can be.
 --
 
 == !
 
-[big]*The Simplest Thing*
+[big]*The Simplest Code*
 
 [big]*Might Not Be Simple*
 
 [NOTE.speaker]
 --
+The simplest code might not be simple.
+
+The problems we're working on may indeed be real puzzlers. Complexity lurks around every corner, over the crest of every hill. It's natural to feel that complex problems demand complex solutions. See how easily I've slipped scale there - we're dealing with awkward problems that demand intricately constructed programs. But if I can resists that far horizon and just focus in what's right in front of me and write the very smallest amount of code that I can, it must be simple. It can be anything.
+
+Build what we need now, because we don't know - we can't know - what need to build tomorrow. What we're doing today changes tomorrow, for everyone. The less we can do, the simpler we make the code today, and the easier it will be to evolve that code tomorrow.
 --
 
 == !
