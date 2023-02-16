@@ -7,7 +7,7 @@ The people who use our code want what it can do, what it enables, what it helps,
 In this session we'll consider the paradox of code, and examine some of these questions. We'll also consider some possible answers, and how that shapes the way we might approach our code.
 
 ---
-This session forms part of the [ACCU 101: Early Career Day](https://flame.firebird.systems/archer-yates/ACCU2021/MyProgrammes#Entry.ItemPage.12054.0.EntryDefinition.b8efce33-2c84-4290-ba65-991a03ef305d), 9 March 2021.
+This session was originally written as part of the [ACCU 101: Early Career Day](https://flame.firebird.systems/archer-yates/ACCU2021/MyProgrammes#Entry.ItemPage.12054.0.EntryDefinition.b8efce33-2c84-4290-ba65-991a03ef305d), 9 March 2021. A revised version was given as a keynote at [nor(DEV):con](https://nordevcon.com/) in February 2023.
 ---
 
 Jez Higgins is a freelance software grandad. He mucks in with programming, lends a hand with build & deployment processes, provides a leg up with TDD practices, and keeps an eye on the young 'uns so they don’t get trapped down the old mine shaft.
