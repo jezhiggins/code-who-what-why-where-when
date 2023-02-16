@@ -299,7 +299,7 @@ Let's say we've been asked to add some new behaviour, a new capability, _new fun
 
 More often though, we look at what we're working with and _if this bit was like that and we move that piece over here *THEN* it would drop it_. Well now, I would suggest, rather than one big, difficult, awkward piece of work, we have two things to do, maybe more. The first step is to _make this bit like that and move that piece of there_. The second step is to add that new behaviour, that new capability, which is going to be straightforward, because now it's just going to drop it.
 
-Conceptually these two steps form a single action, I'm only moving one ticket across my board. But for us, as we do the work, there's one little modification, one little step, then another, and perhaps a third, and a forth.
+Conceptually these two steps form a single action, I'm only moving one ticket across my board. But for us, as we do the work, there's one little modification, one little step, then another, and perhaps a third, and a fourth.
 
 Within each step we should be clear about what we're doing - we're modifying the shape of the code, or we're evolving the functionality of our program. These steps could be tiny - as small as extracting a single method or adding a single line of logging - but as we do the work we need to know which of these we're doing.
 
@@ -324,6 +324,13 @@ Improve the design or change the functionality.
 
 [NOTE.speaker]
 --
+The software we provide is the sum of all the modifications we've made - the integration over time all the changes we've made to our code.
+
+When we ship, in whatever form that takes, we're gathering up all those changes, all those steps we've taken.
+
+In order to be able to deliver the software people want, all those people involved (including us!) we talked about earlier, who's needs and wants are constantly evolving, our code must be amenable to change. The potential within is only revealed as we change it. So we need to keep the code in good order, in a state we can easily manipulate and modify. And one of the key ways we can achieve that is by making each step we take - each refactoring, every new behaviour - as small as we can.
+
+By keeping each step small and focussed, we keep the scope of the next step as open as we can.
 --
 
 == !
@@ -332,13 +339,6 @@ Improve the design or change the functionality.
 
 [NOTE.speaker]
 --
-The software we deliver is the sum of all the modifications we've made - the integration over time all the changes we've made to our code.
-
-When we ship, in whatever form that takes, we're gathering up all those changes, all those steps we've taken.
-
-In order to be able to deliver the software people want, all those people involved (including us!) we talked about earlier who's needs and wants are evolving over time all the time, our code must be amenable to change. The potential within is only revealed as we change it. So we need to keep the code in good order, in a state we can easily manipulate and modify. And one of the key ways we can achieve that is by making each step we take - each refactoring, every new behaviour - as small as we can.
-
-By keeping each step small and focussed, we keep the scope of the next step as open as we can.
 --
 
 
