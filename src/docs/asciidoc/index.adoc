@@ -261,7 +261,7 @@ Write as much software as you need, but only as much as you need. If we can do t
 --
 The simplest code might not be simple.
 
-The problems we're working on may indeed be real puzzlers. Complexity lurks around every corner, over the crest of every hill. It's natural to feel that complex problems demand complex solutions. See how easily I've slipped scale there - we're dealing with awkward problems that demand intricately constructed programs. But if I can resists that far horizon and just focus in what's right in front of me and write the very smallest amount of code that I can, it must be simple. It can be anything.
+The problems we're working on may indeed be real puzzlers. Complexity lurks around every corner, over the crest of every hill. It's natural to feel that complex problems demand complex solutions. See how easily I've slipped scale there - we're dealing with awkward problems that demand intricately constructed programs. But if I can resist that far horizon and just focus in what's right in front of me and write the very smallest amount of code that I can, it must be simple. It can be anything.
 
 Build what we need now, because we don't know - we can't know - what need to build tomorrow. What we're doing today changes tomorrow, for everyone. The less we can do, the simpler we make the code today, and the easier it will be to evolve that code tomorrow.
 --
@@ -274,6 +274,17 @@ Build what we need now, because we don't know - we can't know - what need to bui
 
 [NOTE.speaker]
 --
+Software changes. All software development - it doesn't matter if we're in the greenest of greenfield developments or the legacyist of legacy software - is about change.
+
+The code we write will change. We will always be working with incomplete information, sometimes because we've chosen to set something aside, sometime because we genuinely don't know, sometimes both. Our software will need changing because our understanding of what we're trying to do has moved, the information we have at hand has shifted. I mean hopefully we have a better understanding, but that's not necessarily a given. The landscape is always in flux.
+
+We are going to be changing our code. We are going to be change the behaviour of existing code. We might be adding new functionality alongside what's already there. We may even be taking stuff out.
+
+We should be prepared to change, to modify, to adapt, and abandon our previous work. That the code we have no longer fits with the work we're trying to do is in no way a reflection on us. We are not the code, the code is not us. It isn't our code. It's code we wrote, but it isn't ours.
+
+This can be quite a difficult thing to accept. There are all kinds of cultural norms and societal expectations constructed around work, but I'd really encourage you, strongly encourage you, to try and cultivate that attitude, that acceptance within yourself, humility almost, and to be tolerant of those that might find that same release a little more challenging.
+
+Change is scary, though. All change. Even if you think you know where you're going, it's there's still the shadow of the unknown, an element of risk. In the context of software development, a key way to minimise that risk is go small, and change only one thing at a time.
 --
 
 == !
