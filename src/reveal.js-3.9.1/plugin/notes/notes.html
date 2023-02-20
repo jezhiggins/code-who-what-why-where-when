@@ -100,18 +100,13 @@
 				.speaker-controls-time .label,
 				.speaker-controls-pace .label,
 				.speaker-controls-notes .label {
-					text-transform: uppercase;
-					font-weight: normal;
-					font-size: 0.66em;
-					color: #666;
-					margin: 0;
+          display: none;
 				}
 
 				.speaker-controls-time, .speaker-controls-pace {
 					border-bottom: 1px solid rgba( 200, 200, 200, 0.5 );
 					margin-bottom: 10px;
 					padding: 10px 16px;
-					padding-bottom: 20px;
 					cursor: pointer;
 				}
 
@@ -144,7 +139,7 @@
 
 				.speaker-controls-time .clock {
 					float: right;
-					text-align: right;
+					text-align: center;
 				}
 
 				.speaker-controls-time span.mute {
@@ -167,14 +162,9 @@
 					color: red;
 				}
 
-				.speaker-controls-notes {
-					padding: 10px 16px;
-				}
-
 				.speaker-controls-notes .value {
-					margin-top: 5px;
 					line-height: 1.4;
-					font-size: 1.2em;
+					font-size: 2em;
 				}
 
 			/* Layout selector */
@@ -242,8 +232,8 @@
 			/* Speaker layout: Tall */
 			body[data-speaker-layout="tall"] #current-slide,
 			body[data-speaker-layout="tall"] #upcoming-slide {
-				width: 45%;
-				height: 50%;
+				width: 20%;
+				height: 30%;
 				padding: 6px;
 			}
 
@@ -253,17 +243,16 @@
 			}
 
 			body[data-speaker-layout="tall"] #upcoming-slide {
-				top: 50%;
+				top: 30%;
 				left: 0;
 			}
 
 			body[data-speaker-layout="tall"] #speaker-controls {
-				padding-top: 40px;
 				top: 0;
-				left: 45%;
-				width: 55%;
+				left: 20%;
+				width: 80%;
 				height: 100%;
-				font-size: 1.25em;
+				font-size: 0.5em;
 			}
 
 			/* Speaker layout: Notes only */
@@ -625,8 +614,8 @@
 
 						timings = _timings;
 						if (_timings !== null) {
-							pacingTitleEl.style.removeProperty('display');
-							pacingEl.style.removeProperty('display');
+							//pacingTitleEl.style.removeProperty('display');
+							//pacingEl.style.removeProperty('display');
 						}
 
 						// Update once directly
