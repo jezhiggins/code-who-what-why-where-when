@@ -14,11 +14,12 @@ repositories {
 revealjs {
   version = '4.1.0'
 
-  templateGitHub {
-    organisation = 'hakimel'
-    repository = 'reveal.js'
-    tag = '3.9.1'
-  }
+  templateLocal("src/reveal.js-3.9.1")
+  //templateGitHub {
+  //  organisation = 'hakimel'
+  //  repository = 'reveal.js'
+  //  tag = '3.9.1'
+  //}
 }
 
 asciidoctorRevealJs {
