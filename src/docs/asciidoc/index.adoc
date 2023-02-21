@@ -322,6 +322,19 @@ Improve the design or change the functionality.
 
 [NOTE.speaker]
 --
+That situation - we have some new behaviour to add, and we can see where it sort of fits, and the parts of the code it will touch, but it isn't going to slide right in - that happens all the time. It's almost always true that code we have needs to be more ~~something~~ before the new work will fit in neatly. Consequently, it's quite natural to think of that initial maneuvering as just part of the effort of adding the new functionality.
+
+But it really isn't. We're doing something quite distinct, we're enabling that new functionality. We had code that was great, did what we wanted. But now we have some new information, a new desire, a new outcome we want to achieve. And our code now lacks something, it's not quite the right shape. When as we manipulate it into the new configuration, we're changing the design. The behaviour isn't changing. It does all the same things it did before, but inside it's _better_.
+
+Once we're made that little shift that enables that new functionality, we made that job easier. Once that behaviour is in, we'll probably see an opportunity to tighten things up a little more. It might be that we go back and forth on this a few times. But as we go from one to the other, we need to be really clear on the type of change we're making, as I write this line of code what's my intention - am I improving the design, am I changing behaviour?
+
+Make each individual change as small as we can. If I'm working in this function, maybe I'm adding a line and commit, then I'm over here and committing that, then I can take that out over there. Now I can add that new call, my new behaviour. And now I can see a little twiddle there.
+
+The smaller I make each change, the more confident I can be able the change.
+
+By making taking these little steps, writing only as much as we need, being as simple as we are able, we'll be keeping our code in good order.
+
+Code that's good, that we care about, that we look after. It will be easily malleable in our hands. Because we can work it, we can manipulate it, it will come with us where we want to go. It won't be pulling us back, dragging us in a different direction. No, on the contrary it become a willing participant, almost, in that journey we're making with our colleagues, with our users. It will help carry us, if we look after it. It'll be a pleasurable companion.
 --
 
 == !
@@ -330,11 +343,13 @@ Improve the design or change the functionality.
 
 [NOTE.speaker]
 --
+If we look after the code, it will look after us.
+
 The software we provide is the sum of all the modifications we've made - the integration over time all the changes we've made to our code.
 
 When we ship, in whatever form that takes, we're gathering up all those changes, all those steps we've taken.
 
-In order to be able to deliver the software people want, all those people involved (including us!) we talked about earlier, who's needs and wants are constantly evolving, our code must be amenable to change. The potential within is only revealed as we change it. So we need to keep the code in good order, in a state we can easily manipulate and modify. And one of the key ways we can achieve that is by making each step we take - each refactoring, every new behaviour - as small as we can.
+In order to be able to deliver the software people want, all those people involved (including us!) we talked about earlier, who's needs and wants are constantly evolving, our code must be amenable to change. The potential within is only revealed as we change it. So we need to keep the code healthy, where it is in a state we can easily manipulate and modify, where it suggests its own improvements. And one of the key ways we can achieve that is by making each step we take - each refactoring, every new behaviour - as small as we can.
 
 By keeping each step small and focussed, we keep the scope of the next step as open as we can.
 --
