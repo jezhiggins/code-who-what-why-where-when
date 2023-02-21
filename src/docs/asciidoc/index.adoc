@@ -33,9 +33,13 @@ and honestly, I was pleased with myself for coming up with what I thought was a 
 
 Anyway, let's have a go at thinking about code. In the large and in the small, and maybe we'll address some key questions like tabs vs spaces, JavaScript vs TypeScript, and, maybe, where's the best place in Norfolk to go to the seaside.
 
-Actually we won't, because there are no right answers to those questions. They're insoluable and, whisper it, unimportant. There are so many more soluable important things we could be thinking about instead.
+Actually we won't, because there are no right answers to those questions. They're insoluable and, whisper it, unimportant. There are so many more soluable, or at least tractable, important things we could be thinking about instead.
 
-If you were to say to me _write us some code, straightaway, this minute_ then sure, I can write you some code. And if I asked the same of you, all of you here, _pull out your laptop, write me some code, here in the hall now_, you'd have you hand your bag before I got to the end of the sentence, right? Right?
+So, a talk about code.
+
+If to ask me to put my money where my mouth is, _C'mon Jez, write us some code, straightaway, this minute_ then I'd say sure, I can write you some code. And since I'm up here I might get theatrical about it and make a show of it.
+
+And if I asked the same of you, all of you here, _pull out your laptop, write me some code, here in the hall now_, you'd have you hand your bag before I got to the end of the sentence, right? Right?
 --
 
 == !
@@ -50,7 +54,9 @@ Right?
 
 We all know how to write code, probably in more than one language, perhaps in quite a few.
 
-So, stick your hands in your bags ... No, no, no, don't do it, because we'd all get excited and then there'd be this awkward pause, and you'd all lift your faces from the screens and look up at me here, and I'd feel even more embarrassed and nervous than I already am, with puzzled looks on your eager faces and you'd ask ...
+So, stick your hands in your bags ... No, no, no, don't do it, because we'd all get excited as you got MacBooks and your Dells and whatever else out, opened them up, ...
+
+Then there'd be this awkward pause, and you'd all lift your faces from the screens and look up at me here, and I'd feel even more embarrassed and nervous than I already do, with puzzled looks on your eager faces and you'd ask ...
 
 --
 
@@ -102,7 +108,7 @@ Because code is hard we can spend all day writing it.
 --
 I've talked so far about us. What _we_ can imagine, what _we_ can express, what each of _us_, individually and together, can imagine and express.
 
-In practice though, as noted in the _What should I write_ question a moment ago, is that we are not, usually, engaged in writing software for our own amusement. We're writing it for other people, and generally not for their amusement. We're writing it to help in their work, or to give them access to some service, or to make sure they get paid, or to keep the lights on - you don't need me to give you a list, you seen software.
+In practice though, we are not, usually, engaged in writing software for our own amusement. We're writing it for other people, and generally not for their amusement. We're writing it to help in their work, or to give them access to some service, or to make sure they get paid, or to keep the lights on - you don't need me to give you a list, you seen software.
 
 The people who are going to use our software, who are they? Well, there's the people who want to access that service, get paid, or whatever, well, yea. But there are also the people working with us - other programmers, UI designers, maybe copywriters or video artists. If you have a support desk, what do they need? Are there operations staff that will be looking after the software. Surely there's a manager or two in the mix somewhere. Perhaps a funding agency.
 --
@@ -115,7 +121,7 @@ The people who are going to use our software, who are they? Well, there's the pe
 --
 All these people, and more, have an interest in the software.
 
-So not only do we have our own thoughts, layered on those are almost infinite number of other people's thoughts too, and we somehow have to convert that into working software?
+So not only do we have our own thoughts, layered on those are an uncountable number of other people's thoughts too, and we somehow have to convert that into working software?
 
 Yes. And we do. We do all the time.
 
@@ -140,7 +146,7 @@ This is the fundamental paradox of the medium in which we work.
 
 We can write reams and reams of code at almost no cost. We can do incredible computations in fractions of a second, chew through vast quantities of data in moments. I'm not talking about things that would astonish our grandparents. I'm talking about capabilities that would amaze ourselves of ten years ago, five years ago even.
 
-We do make and do these amazing things, just like that. It's like we have magic in our fingertips. This is ours to command. But the ease with which we can produce that code, can crunch those numbers, that open up these huge potentialities, the vast multidimensional hyperspace manifolds we can explore - that's why it's so thrilling - is also why writing code can be so very, very difficult. How do we navigate this myriad of possibilities?
+We make and do these amazing things, just like that. It's like we have magic in our fingertips. This is ours to command. But the ease with which we can produce that code, can crunch those numbers, that open up these huge potentialities, the vast multidimensional hyperspace manifolds we can explore - that's why it's so thrilling - is also why writing code can be so very, very difficult. How do we navigate this myriad of possibilities?
 
 There's a real tension there, at the heart of what we do as programmers, as _software professionals_. We have to try and tame that paradox. It exists at all levels, but it's most manifest, most there, down at the level of the code.
 
@@ -161,11 +167,11 @@ If there were, then software would be straightforward, everyone would be doing j
 
 That might sound like a counsel of despair. No rules? Then surely in the grim dark future there is only war?
 
-While there may not be rules, we can apply some guidelines, some heuristics, some practices, and patterns. We can hold some ideas in consideration.
+While there may not be rules, we can apply some guidelines, some heuristics, some practices, and patterns. We can hold some ideas in consideration. Of course those are just fancy names for "folk wisdom"
 
-I've already suggested that we have these different forces in play - think of all those people with an interest in the software we write. We're going to be engaged in a kind of balancing act between, well not good and evil, or even between order and chaos - would that it were so binary - we're to find a compromise between the ease with we can come up with ideas, the difficult to have in expressing those ideas, what is that people want us to say, and whatever it is we actually need to say.
+I've already suggested that we have these different forces in play - think of all those people with an interest in the software we write. We're going to be engaged in a kind of balancing act between, well not good and evil, or even between order and chaos - would that it were so binary - we're to find a compromise between the ease with we can come up with ideas, the difficultly we might have in expressing those ideas, what is that people want us to say, and whatever it is we actually need to say.
 
-Consequently, even any guidelines we may adopt, there's a tension there, between different guidelines and embedded within heuristics themselves. Because they're not rules, there's no single right way to apply them. We have to find out, keep on finding out, what works for each of us, in our context.
+Consequently, with any guidelines we might adopt, there's a tension there, between different guidelines and embedded within them. Because they're not rules, there's no single right way to apply them. We have to find out, keep on finding out, what works for each of us, in our context.
 --
 
 == !
@@ -174,13 +180,13 @@ Consequently, even any guidelines we may adopt, there's a tension there, between
 
 [NOTE.speaker]
 --
-The people who use our software are deeply, deeply uninterested in our code. They are interested in what the code does for them and, generally speaking for the kind of commercial software most of us are engaged in, how it makes their lives easier. They are interested in, and I hate to use such a management sounding word but it's true, they are interested _in outcomes_, and we should be to.
+The people who use our software are deeply, deeply uninterested in our code. They are interested in what the code does for them and, generally speaking for the kind of commercial software most of us are engaged in, how it makes their lives easier. They are interested in, and I hate to use such a management sounding word but it's true, they are interested _in outcomes_, and we should be to. Those _outcomes_ can be really quite significant.
 
-This is an extreme example, but I did a little bit of work for a student at the university where I was working. He later told me I'd saved him 9 months of hand calculation. The meant he could submit his PhD thesis earlier than he'd ever expected. He subsequently got a research position in Hawaii and lived in a tropical paradise for the next twenty years. We can, quite genuinely, change lives with an afternoon of nudging around a few Excel formulas.
+To give you quite an extreme example, I did a little bit of work for a student at the university where I was working at the time. He later told me I'd saved him 9 months of hand calculation. That's not bad. But that then meant he could submit his PhD thesis earlier than he'd ever expected. Because of that, he subsequently got a research position in Hawaii and lived in a tropical paradise for the next twenty years. We can, quite genuinely, change lives with an afternoon of nudging around a few Excel formulas.
 
-As more every day example is the work some of my colleagues at the Ministry of Justice were (and hopefully still are) doing, on preparing court lists - this is the list of trial that are schedule for that day. The service they were working on reduced the time it took for court staff to prepare from around 90 minutes to about 20 minutes. Now for the people who do that work, who it should be noted are overworked as it is, that's great. Maybe that can knock off a bit earlier - I hope so. But, without digging into the details, it also means that more trials go ahead, which is beneficial for victims of crime and for the alleged perpetrators. That's better for society as a whole. Does society care that some of the code is written in JavaScript using the GovUK widgets, or that the back is written in Kotlin with Spring Boot, and the whole thing is deployed into the MoJ Cloud Platform. No, not a jot. Do we, as a society, care about the administration of the criminal justice system? Yes, yes, I think we do.
+As more every day example is the work some of my colleagues at the Ministry of Justice were (and hopefully still are) doing, on preparing court lists - this is the list of trials that are schedule for that day. The service they were working on reduced the time it took for court staff to prepare from around 90 minutes to about 20 minutes. Now for the people who do that work, who it should be noted are overworked as it is, that's great. Maybe that can knock off a bit earlier - I hope so. But, without digging into the details, it also means that more trials go ahead, which is beneficial for victims of crime and for the alleged perpetrators. That's better for society as a whole. Does society care that some of the code is written in JavaScript using the GovUK widgets, or that the back is written in Kotlin with Spring Boot, and the whole thing is deployed into the MoJ Cloud Platform. No, not a jot. Do we, as a society, care about the administration of the criminal justice system? Yes, yes, I think we do.
 
-Now, not everything we do is going to have such a big impact, potentially such a direct societal impact, but the code we write reaches beyond us, and beyond the immediate people who use it, out more widely.
+Now, not everything we do is going to have such a big impact, potentially such a direct societal impact, but the code we write - the stuff we willed into existence - reaches beyond us, and beyond the immediate people who use it, out more widely.
 
 This starts to touch on the ethics of the software we write, but that's a whole different talk.
 
@@ -195,21 +201,23 @@ The code itself, the code we write is not important. If we can some aim by not w
 
 [NOTE.speaker]
 --
-The difficulty there is that people don't know what they want. We can have ideas, and feelings, and intuitions, and they can be very sure about those ideas and feelings. We can ask all kinds of questions, offer all kinds of hypotheticals, hold out all kinds of possibilities, and get very definite opinions and answers.
+It is a given in software development that people don't know what they want. I don't think that's quite true.
 
-But those ideas and opinions and feelings will evolve and develop, and one of the key things that will provoke that change is giving our software to them.
+People have ideas, and feelings, and intuitions, and they can be very sure about those ideas and feelings. We can ask all kinds of questions, offer all kinds of hypotheticals, hold out all kinds of possibilities, and get very definite opinions and answers. People do know what they want.
 
-Sometimes that reaction may be quite negative. It might be very positive, although often in a qualified way - _this is good, but could it ..._ Nobody has ever passed over a piece of software and people have used it and say _yes, this is perfect, your work here is done_
+But those ideas and opinions and feelings will evolve and develop, and one of the key things that will provoke that evolution is giving our software to them.
+
+Sometimes that reaction may be quite negative. It might be very positive, although often in a qualified way - _this is good, but could it ..._ Nobody has ever passed over a piece of software and people have used it and say _yes, this is perfect, your work here is done, we have no more ideas_
 
 We shouldn't, by the way, use _they don't know what they want_ as an excuse to cut people out. We need them, we need their expertise, we need their advice, we need their help, we need their cooperation.
 
-The only way to discover the outcomes people really desire is to ask them their reckons, build something, show it to them (ideally in a real situation), and then ask them again. For that to be useful, fulfilling process, we need to do that as quickly as possible, as often as possible.
+The only way to discover the outcomes people really desire is to ask them their reckons, build something, show it to them (ideally in a real situation), and then ask them again. For that to be useful, fulfilling process, we need to do that as often as possible.
 
-We can't give people perfect software, but we can try and get closer and closer over time.
+We can't give people perfect software, but we can try and give them really good software.
 
-How quickly is quickly? It depends. How often is often? That depends too. For my MoJ colleagues, I think they deliver into the courts about monthly. There are organisational reasons why you can't do it more often than that. With a team I work with a West Midlands Fire Service, they can turn things around in under a day. Over the past month, I've been delivering ever couple of hours. The dynamics in each case are different, but they're getting stuff out and in to use about as fast as they can.
+How often is often? That depends. For my MoJ colleagues, I think they deliver into the courts about monthly. There are organisational, and genuinely political, reasons why you can't do it more often than that. With a team I work with a West Midlands Fire Service, they can turn things around in under a day. Over the past month, I've had a cycle time of about every couple of hours. The dynamics in each case are different, but they're getting stuff out and in to use about as fast as possible.
 
-Those thoughtspaces we can explore? The people we work have their own spaces, their imagination is just as rich as ours, but each us can only see so far. That's why there's that uncertainty. You can see a place a little way away, and as you head toward it together, the code we write, that manifests those thoughts, changes the immediate landscape we can see, opens up new paths, makes it apparent that other directions are less useful, gives us a glimpse over the hill. It's not just that we're moving through that landscape, the landscape is dynamic, it's that the landscape is being changed as we move, we change it as we move. The software that we create, it makes those thoughts manifest, so it has a profound on that landscape. That's part of the power of the software we write.
+Those thoughtspaces we can explore? The people we work have their own spaces, their imagination is just as rich as ours, but each us can only see so far. That's why there's that uncertainty. You can see a place a little way away, and as you head toward it together, the code we write, that manifests those thoughts, changes the immediate landscape we can see, opens up new paths, makes it apparent that other directions are less useful, gives us a glimpse over the hill. It's not just that we're moving through that landscape, the landscape is dynamic, it's that the landscape is being changed as we move, we change it as we move. The software that we create, it makes those thoughts manifest, so it has a profound effect on that landscape. That's part of the power of the software we write.
 
 The more often we can provide the code to people, the smoother our journeys through our shifting landscapes will be.
 --
@@ -224,11 +232,9 @@ The more often we can provide the code to people, the smoother our journeys thro
 --
 The more often we can provide the code to the people who will use it, the smoother our joint journey through our shifting landscapes will be.
 
-It would be wonder if they could be with us the whole time but, unfortunately this is very rarely the case. We've got to go on ahead without them, and then teleport along to catch up with us. As we navigate that period without them, we in the same kind of bind that we were when I was threatening to ask you to pull your laptop out at the start.
+It would be wonderful if we could travel together the whole time but, unfortunately this is very rarely the case. We've got to go on ahead without them, and then teleport along to catch up with us. As we navigate that period without them, we in the same kind of bind that we were when I was threatening to ask you to pull your laptop out at the start.
 
-There's a fractal nature to software development. The shapes that we make with our software at the macro scale, repeat and repeat and repeat right down to the very bottom. I suppose, actually, it's coming up, isn't from the microcode, through the languages we work in, up and out into services and networks, and on and on.
-
-We are making choices in every line we write. Is this an if or a switch? Have I just found a weakness in my object model? Or something else. There's a lot to consider.
+There are choices me in every line we write. Is this an if or a switch? Have I just found a weakness in my object model? Or something else. There's a lot to consider.
 
 Now we adopt various of ways of trying deliberately limiting the scope of what we need to think about
 
@@ -236,7 +242,7 @@ Now we adopt various of ways of trying deliberately limiting the scope of what w
 * idiomatic usage - what's normal for the language you're working in? What does a loop typically look like?
 * use the library - chances are that container is going to be just fine.
 * make everything readonly - or final or const. Mutable things are immediately more difficult to work with?
-* maintain your local vernacular - things like code style, came case, bracket placement, that kind of thing
+* maintain your local vernacular - things like code style, camel case, bracket placement, that kind of thing
 * keep methods and functions short - when you get few lines that form their own thing, say the two branches of an if, that's a candidate for a new function. If the condition itself is a little bit awkward - it's this and that or that other thing - that's a candidate
 * functions, of course, need names so as you break these out these functions the names you give them illuminate your code - your putting additional information right into your source that you can encode any other way. If you can't find a name, the code is telling you something about itself. Names are hugely powerful.
 
@@ -261,7 +267,7 @@ Write as much software as you need, but only as much as you need. If we can do t
 --
 The simplest code might not be simple.
 
-The problems we're working on may indeed be real puzzlers. Complexity lurks around every corner, over the crest of every hill. It's natural to feel that complex problems demand complex solutions. See how easily I've slipped scale there - we're dealing with awkward problems that demand intricately constructed programs. But if I can resist that far horizon and just focus in what's right in front of me and write the very smallest amount of code that I can, it must be simple. It can be anything.
+The problems we're working on may indeed be real puzzlers. Complexity lurks around every corner, over the crest of every hill. It's natural to feel that complex problems demand complex solutions. See how easily I've slipped scale there - we're dealing with awkward problems that demand intricately constructed programs. But if I can resist that far horizon and just focus in what's right in front of me and write the very smallest amount of code that I can, it must be simple. It can't be anything else.
 
 Build what we need now, because we don't know - we can't know - what need to build tomorrow. What we're doing today changes tomorrow, for everyone. The less we can do, the simpler we make the code today, and the easier it will be to evolve that code tomorrow.
 --
@@ -278,7 +284,7 @@ Software changes. All software development - it doesn't matter if we're in the g
 
 The code we write will change. We will always be working with incomplete information, sometimes because we've chosen to set something aside, sometime because we genuinely don't know, sometimes both. Our software will need changing because our understanding of what we're trying to do has moved, the information we have at hand has shifted. I mean hopefully we have a better understanding, but that's not necessarily a given. The landscape is always in flux.
 
-We are going to be changing our code. We are going to be change the behaviour of existing code. We might be adding new functionality alongside what's already there. We may even be taking stuff out.
+We are going to be changing our code. We are going to be changing the behaviour of existing code. We might be adding new functionality alongside what's already there. We may even be taking stuff out.
 
 We should be prepared to change, to modify, to adapt, and abandon our previous work. That the code we have no longer fits with the work we're trying to do is in no way a reflection on us. We are not the code, the code is not us. It isn't our code. It's code we wrote, but it isn't ours.
 
