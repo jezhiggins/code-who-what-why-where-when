@@ -330,7 +330,7 @@ Once we're made that little shift that enables that new functionality, we made t
 
 Make each individual change as small as we can. If I'm working in this function, maybe I'm adding a line and commit, then I'm over here and committing that, then I can take that out over there. Now I can add that new call, my new behaviour. And now I can see a little twiddle there.
 
-The smaller I make each change, the more confident I can be able the change.
+The smaller we make each change, the more confident we can be able the change.
 
 By making taking these little steps, writing only as much as we need, being as simple as we are able, we'll be keeping our code in good order.
 
@@ -360,6 +360,15 @@ By keeping each step small and focussed, we keep the scope of the next step as o
 
 [NOTE.speaker]
 --
+You've no doubt detected the theme here - I'm emphasised simplicity, working small, making the most compact changes, tiny deliveries, putting off thinking about what's not useful now for another time, trying not to anticipate the future.
+
+The human brain is an immensely complex structure, the most complex of all known living structures. Even when we use the full range of cognitive abilities our brains have limits - quite clear and measurable limits. And we aren't machines - we tire, and we worry, and we have distractions, and concerns, and feelings. Shrinking scope, more steps but each one very short, working with fewer things to juggle. It reduces our cognitive load. Our code is easier to reason about. It's less tiring. You get more done, and what you do is more closely matches what we want. That's more rewarding, for every one.
+
+I want to touch on one last thing before I finish. A lot of what I've talking about implied that we're all working in one big unified team, in an organisation with clear priorities, engaged users, and all that. I understand, believe me I understand, that this is not the case for all of us. For any of us, at some time or another.
+
+However, this emphasis on the small, that's something you can apply yourself, as an individual. You can't turn organisation on its head and refresh the whole place, but you can aim to do the simplest thing. You can observe your own behaviour - is this new behaviour or am I improving the design - and try to regulate it. Don't be too hard on yourself - we're none of us paragons, and I'd be a liar if I said I worked like this all day every day. But I try, and when things aren't going well, when I'm most under pressure, I try harder - I slow down, I take smaller steps, and it generally comes right.
+
+As you experiment with smaller staps, as you become more comfortable with them, you will see, and feel, their benefits. You'll be a better programmer and happier programmer by taking smaller steps.
 --
 
 
@@ -371,12 +380,5 @@ By keeping each step small and focussed, we keep the scope of the next step as o
 
 [NOTE.speaker]
 --
---
-
-== !
-
-[big]**
-
-[NOTE.speaker]
---
+Thank you for your time. Thank you for your attention. 
 --
