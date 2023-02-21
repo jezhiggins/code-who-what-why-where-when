@@ -368,7 +368,9 @@ I want to touch on one last thing before I finish. A lot of what I've talking ab
 
 However, this emphasis on the small, that's something you can apply yourself, as an individual. You can't turn organisation on its head and refresh the whole place, but you can aim to do the simplest thing. You can observe your own behaviour - is this new behaviour or am I improving the design - and try to regulate it. Don't be too hard on yourself - we're none of us paragons, and I'd be a liar if I said I worked like this all day every day. But I try, and when things aren't going well, when I'm most under pressure, I try harder - I slow down, I take smaller steps, and it generally comes right.
 
-As you experiment with smaller staps, as you become more comfortable with them, you will see, and feel, their benefits. You'll be a better programmer and happier programmer by taking smaller steps.
+As you experiment with smaller steps, as you become more comfortable with them, you will see, and feel, their benefits.
+
+You'll be a better programmer and a happier programmer, and your code will help make the world a better and a happier place.
 --
 
 
@@ -380,5 +382,5 @@ As you experiment with smaller staps, as you become more comfortable with them, 
 
 [NOTE.speaker]
 --
-Thank you for your time. Thank you for your attention. 
+Thank you for your time. Thank you for your attention.
 --
