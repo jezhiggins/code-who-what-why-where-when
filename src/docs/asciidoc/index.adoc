@@ -13,12 +13,6 @@ Jez Higgins, jez@jezuk.co.uk
 
 *Who, What, Why, Where, When* +
 
-_Jez Higgins_
-
-@jezhiggins@mastondon.me.uk
-
-jez@jezuk.co.uk
-
 [NOTE.speaker]
 --
 Hello again friends, I'm Jez and I'm here to talk with you about code.
@@ -31,13 +25,13 @@ Hello again friends, I'm Jez and I'm here to talk with you about code.
 
 and honestly, I was pleased with myself for coming up with what I thought was a snappy title, but then couldn't actually backfill enough to make what I'm going to say hit all those w-words.
 
-Anyway, let's have a go at thinking about code. In the large and in the small, and maybe we'll address some key questions like tabs vs spaces, JavaScript vs TypeScript, and, maybe, where's the best place in Norfolk to go to the seaside.
+Anyway, let's have a go at thinking about code. In the large and in the small, and we won't be worrying about classical computer science questions like tabs vs spaces, JavaScript vs TypeScript, or anything like that.
 
-Actually we won't, because there are no right answers to those questions. They're insoluable and, whisper it, unimportant. There are so many more soluable, or at least tractable, important things we could be thinking about instead.
+There are no right answers to those questions. They're insoluable and, whisper it, unimportant. It's like asking where's the best place in Norfolk to go to the seaside. There are so many more soluable, or at least tractable, things we could be thinking about instead.
 
 So, a talk about code.
 
-If to ask me to put my money where my mouth is, _C'mon Jez, write us some code, straightaway, this minute_ then I'd say sure, I can write you some code. And since I'm up here I might get theatrical about it and make a show of it.
+If you were to ask me to put my money where my mouth is, _C'mon Jez, write us some code, straightaway, this minute_ then I'd say sure, I can write you some code. And since I'm up here I might get theatrical about it and make a show of it.
 
 And if I asked the same of you, all of you here, _pull out your laptop, write me some code, here in the hall now_, you'd have you hand your bag before I got to the end of the sentence, right? Right?
 --
@@ -239,11 +233,9 @@ There are choices me in every line we write. Is this an if or a switch? Have I j
 Now we adopt various of ways of trying deliberately limiting the scope of what we need to think about
 
 * using familiar terms - if you're working on scheduling fire safety inspections, call it the fire safety inspection scheduler.
-* idiomatic usage - what's normal for the language you're working in? What does a loop typically look like?
-* use the library - chances are that container is going to be just fine.
-* make everything readonly - or final or const. Mutable things are immediately more difficult to work with?
+* idiomatic usage, libraries - what's normal for the language you're working in? What does a loop typically look like?
 * maintain your local vernacular - things like code style, camel case, bracket placement, that kind of thing
-* keep methods and functions short - when you get few lines that form their own thing, say the two branches of an if, that's a candidate for a new function. If the condition itself is a little bit awkward - it's this and that or that other thing - that's a candidate
+* keep methods and functions short - when you get few lines that form their own thing, say the two branches of an if, that's a candidate for a new function. 
 * functions, of course, need names so as you break these out these functions the names you give them illuminate your code - your putting additional information right into your source that you can encode any other way. If you can't find a name, the code is telling you something about itself. Names are hugely powerful.
 
 We can be applying all these little techniques and more, but still being having a difficult time creating our software. Our journey is not smooth - there are crags to scale and crevasses to traverse.
